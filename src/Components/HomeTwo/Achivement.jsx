@@ -64,7 +64,7 @@ const Achivement = () => {
 
                                 <div className="counter my-2">
                                     <h2 className='fs_64 fw_extrabold text-white'>
-                                        <CountUp start={100.0} decimals={1} end={7.0} duration={'5'} />
+                                        <CountUp start={100.0} decimals={1} end={7.0} duration={'5'} />M
                                     </h2>
                                 </div>
 
