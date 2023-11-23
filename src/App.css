@@ -1,3 +1,95 @@
+button {
+    background-color: transparent;
+    border: none;
+}
+
 .container {
     max-width: 1420px;
+}
+
+.navbar {
+    padding: 25px 0;
+    background: var(--palette-white-white-alpha-90, rgba(255, 255, 255, 0.90));
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-nav {
+    gap: 48px;
+}
+
+.nav-link {
+    color: var(--palette-warm-gray-900-warm-gray-900-alpha-100, #1C1917);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    padding: 0 !important;
+}
+
+.nav-link.active {
+    color: var(--color-primary, #075759) !important;
+}
+
+.user_tab {
+    border-radius: 8px;
+    background: var(--color-primary-5, #F3F7F7);
+    padding: 3px;
+}
+
+.user_tab button {
+    color: var(--palette-dark-blue-900-dark-blue-900-alpha-100, #000E21);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 140%;
+    padding: 10px 24px;
+}
+
+.user_tab button.active {
+    border-radius: 8px;
+    background: var(--color-primary, #075759);
+    color: var(--palette-white-white-alpha-100, #FFF);
+}
+
+.banner {
+    background-image: url('../src/assets/banner-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 159px;
+    padding-bottom: 35pxd;
+}
+
+.banner h1 {
+    color: var(--color-primary, #075759);
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 130%;
+    max-width: 751px;
+    margin-bottom: 17px;
+}
+
+.banner h1 span {
+    color: var(--color-secondary, #FD7E00);
+}
+
+.banner p {
+    color: var(--palette-black-black-alpha-100, #000);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+    max-width: 638px;
+    margin-bottom: 50px;
+}
+
+.download_btn {
+    color: var(--palette-white-white-alpha-100, #FFF);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-transform: capitalize;
+    border-radius: 8px;
+    background: var(--color-primary, #075759);
+    padding: 14px 32px;
+    margin-bottom: 45px;
 }
