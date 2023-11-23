@@ -172,3 +172,57 @@ button {
 .quarter_card:hover p {
     color: var(--palette-cool-gray-100-cool-gray-100-alpha-90, rgba(243, 244, 246, 0.90));
 }
+
+/* sustainability css */
+.sustainability {
+    background: var(--color-primary, #075759);
+    padding-top: 124px;
+    padding-bottom: 155px;
+}
+
+.sustainability h2 {
+    color: var(--palette-white-white-alpha-100, #FFF);
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 20px;
+}
+
+.sustainability h2 span {
+    color: var(--color-secondary, #FD7E00);
+}
+
+.sustainability .content {
+    color: #E6EEEE;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+    margin-bottom: 35px;
+}
+
+.sustainability .title {
+    color: var(--palette-white-white-alpha-100, #FFF);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.sustainability .subtitle {
+    color: #D0D0D1;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.sustainability button {
+    border-radius: 8px;
+    background: var(--palette-white-white-alpha-100, #FFF);
+    color: var(--color-primary, #075759);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    text-transform: capitalize;
+    padding: 14px 32px;
+    margin-top: 60px;
+}
