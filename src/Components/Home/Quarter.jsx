@@ -40,7 +40,8 @@ const Quarter = () => {
           {list.map((data, index) => (
             <div className="col-12 col-md-6 col-lg-4" key={index}>
               <div className="quarter_card d-flex align-items-center flex-column h-100">
-                <img src={data.pic} alt="" />
+                <img className="default" src={data.pic} alt="" />
+                <img className="hov" src={data.picHov} alt="" />
 
                 <div className="flex-grow-1">
                   <h3>{data.title}</h3>

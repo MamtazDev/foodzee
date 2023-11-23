@@ -114,28 +114,61 @@ button {
     color: var(--color-secondary, #FD7E00);
 }
 
-.quarter .quarter_card {
+.quarter_card {
     border-radius: 8px;
     border: 1px solid #EEE;
     background: #FFF;
     padding: 40px;
+    transition: 0.3s ease-in;
 }
 
-.quarter .quarter_card img {
+.quarter_card img {
     margin-bottom: 30px;
 }
 
-.quarter .quarter_card h3 {
+.quarter_card img.hov {
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+    transition: 0.3s ease-in;
+}
+
+.quarter_card h3 {
     color: var(--palette-warm-gray-800-warm-gray-800-alpha-100, #292524);
     font-size: 36px;
     font-weight: 700;
     line-height: 130%;
     margin-bottom: 16px;
+    transition: 0.3s ease-in;
 }
 
-.quarter .quarter_card p {
+.quarter_card p {
     color: var(--palette-warm-gray-600-warm-gray-600-alpha-100, #57534E);
     font-size: 18px;
     font-weight: 500;
     line-height: 160%;
+    transition: 0.3s ease-in;
+}
+
+.quarter_card:hover {
+    border-radius: 8px;
+    background: var(--color-primary-80, #39797A);
+}
+
+.quarter_card:hover img.hov {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+.quarter_card:hover img.default {
+    display: none;
+}
+
+.quarter_card:hover h3 {
+    color: var(--palette-text-light-0-text-light-0-alpha-100, #FCFCFC);
+}
+
+.quarter_card:hover p {
+    color: var(--palette-cool-gray-100-cool-gray-100-alpha-90, rgba(243, 244, 246, 0.90));
 }
