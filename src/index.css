@@ -13,9 +13,17 @@
 body {
     font-family: 'Helvetica Neue', sans-serif;
 }
-h1,h2,h3,h4,h5,h6,p{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin-bottom: 0;
 }
+
 .section_padding {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -25,11 +33,28 @@ h1,h2,h3,h4,h5,h6,p{
     color: #191919c2;
 }
 
+.bg_clr {
+    background-color: #075759;
+}
+
 .f_clr_19 {
     color: #191919;
+}
+
+.fw_medium {
+    font-weight: 500;
+}
+
+.fw_extrabold {
+    font-weight: 800;
 }
 
 .fs_18 {
     font-size: 18px;
     line-height: 28px;
+}
+
+.fs_64 {
+    font-size: 64px;
+    line-height: 74px;
 }
