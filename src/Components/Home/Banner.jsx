@@ -14,7 +14,7 @@ const Banner = () => {
           Economical Eats, Timely Treats: Unleash Savings and Slash Food Waste
           with Foodzee's Exclusive Deals!
         </p>
-        <button className="download_btn">Download Now!</button>
+        <button className="download_btn f_inter">Download Now!</button>
         <div className="d-flex align-items-center gap-2">
           <button>
             <img src={googlePlay} alt="" />

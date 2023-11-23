@@ -50,6 +50,9 @@ button {
     color: var(--palette-white-white-alpha-100, #FFF);
 }
 
+
+/* ==== banner css ====== */
+
 .banner {
     background-image: url('../src/assets/banner-bg.png');
     background-repeat: no-repeat;
@@ -83,7 +86,6 @@ button {
 
 .download_btn {
     color: var(--palette-white-white-alpha-100, #FFF);
-    font-family: Inter;
     font-size: 18px;
     font-weight: 600;
     line-height: 28px;
@@ -92,4 +94,48 @@ button {
     background: var(--color-primary, #075759);
     padding: 14px 32px;
     margin-bottom: 45px;
+}
+
+/* ===== quarter css ===== */
+.quarter {
+    padding: 130px 0;
+    text-align: center;
+}
+
+.quarter h2 {
+    color: var(--color-primary, #075759);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 60px;
+}
+
+.quarter h2 span {
+    color: var(--color-secondary, #FD7E00);
+}
+
+.quarter .quarter_card {
+    border-radius: 8px;
+    border: 1px solid #EEE;
+    background: #FFF;
+    padding: 40px;
+}
+
+.quarter .quarter_card img {
+    margin-bottom: 30px;
+}
+
+.quarter .quarter_card h3 {
+    color: var(--palette-warm-gray-800-warm-gray-800-alpha-100, #292524);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 16px;
+}
+
+.quarter .quarter_card p {
+    color: var(--palette-warm-gray-600-warm-gray-600-alpha-100, #57534E);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 160%;
 }
