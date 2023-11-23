@@ -48,7 +48,7 @@ const Sustainability = () => {
                     <p className="title">{data.title}</p>
                     {/* <p className="subtitle">{data.subtitle}</p> */}
                     <p
-                      className="subtitle"
+                      className="subtitle f_inter"
                       dangerouslySetInnerHTML={{ __html: data.subtitle }}
                     />
                   </div>
@@ -56,7 +56,7 @@ const Sustainability = () => {
               ))}
             </div>
 
-            <button>Download Foodzee Now!</button>
+            <button className="f_inter">Download Foodzee Now!</button>
           </div>
         </div>
       </div>

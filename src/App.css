@@ -226,3 +226,52 @@ button {
     padding: 14px 32px;
     margin-top: 60px;
 }
+
+.impact {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    background-image: url('../src/assets/impact-bg.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.impact h2 {
+    color: var(--color-primary, #075759);
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 20px;
+}
+
+.impact h2 span {
+    color: var(--color-secondary, #FD7E00);
+}
+
+.impact p {
+    color: #3B3B3C;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 160%;
+    margin-bottom: 50px;
+}
+
+.impact p.title {
+    color: var(--color-primary, #075759);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+
+.impact button {
+    border-radius: 8px;
+    background: var(--palette-background-dark-muted-background-dark-muted-alpha-100, #252526);
+    color: var(--palette-white-white-alpha-90, rgba(255, 255, 255, 0.90));
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-transform: capitalize;
+    padding: 14px 32px;
+    margin-top: 40px;
+}
