@@ -15,7 +15,31 @@ footer .footer_link {
     transition: all linear 0.2s;
 }
 
-footer .footer_link:hover{
+footer .footer_link:hover {
     background-color: #075759;
     color: white;
+}
+
+footer .footer_nav .nav_title {
+    margin-bottom: 30px;
+}
+
+footer .footer_nav .nav_item {
+    margin-bottom: 10px;
+}
+
+footer .footer_nav .nav_item a:hover {
+    color: #075759;
+    ;
+}
+
+footer .footer_nav_wrapper {
+    border-bottom: 1px solid #1919191f;
+    padding-bottom: 50px;
+}
+
+@media(max-width: 550px) {
+    footer .copyright {
+        font-size: 12px;
+    }
 }

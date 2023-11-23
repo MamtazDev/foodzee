@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
+/* @import url('https://fonts.cdnfonts.com/css/helvetica-neue-55'); */
+@import url('../src/fonts/stylesheet.css');
+
 
 .f_helvetica {
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Helvetica Neue';
 }
 
 .f_inter {
@@ -20,8 +22,12 @@ h1,h2,h3,h4,h5,h6,p{
     padding-bottom: 100px;
 }
 
-.f_clr_19 {
+.f_clr_19c2 {
     color: #191919c2;
+}
+
+.f_clr_19 {
+    color: #191919;
 }
 
 .fs_18 {
