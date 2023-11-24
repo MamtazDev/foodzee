@@ -3,6 +3,10 @@ button {
     border: none;
 }
 
+button:hover {
+    transform: scale(1.02);
+}
+
 input:focus-visible {
     outline: none;
 }
@@ -46,12 +50,14 @@ input:focus-visible {
     font-weight: 500;
     line-height: 140%;
     padding: 10px 24px;
+    transition: 0.3s ease-in;
 }
 
 .user_tab button.active {
     border-radius: 8px;
     background: var(--color-primary, #075759);
     color: var(--palette-white-white-alpha-100, #FFF);
+    transition: 0.3s ease-in;
 }
 
 
@@ -98,6 +104,7 @@ input:focus-visible {
     background: var(--color-primary, #075759);
     padding: 14px 32px;
     margin-bottom: 45px;
+    transition: 0.3s ease-in;
 }
 
 /* ===== quarter css ===== */
@@ -229,6 +236,7 @@ input:focus-visible {
     text-transform: capitalize;
     padding: 14px 32px;
     margin-top: 60px;
+    transition: 0.3s ease-in;
 }
 
 .impact {
@@ -278,6 +286,7 @@ input:focus-visible {
     text-transform: capitalize;
     padding: 14px 32px;
     margin-top: 40px;
+    transition: 0.3s ease-in;
 }
 
 .dining {
@@ -374,6 +383,7 @@ input:focus-visible {
     line-height: 28px;
     text-transform: capitalize;
     margin-bottom: 100px;
+    transition: 0.3s ease-in;
 }
 
 .opportunity {
@@ -452,16 +462,7 @@ input:focus-visible {
     font-weight: 700;
     line-height: 24px;
     white-space: nowrap;
-}
-
-.modal-xl {
-    width: 1076px !important;
-    background: var(--palette-white-white-alpha-100, #FFF);
-    box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.12);
-}
-
-.modal-dialog-centered {
-    /* min-height: unset !important; */
+    transition: 0.3s ease-in;
 }
 
 .add_modal .modal-body {
@@ -470,6 +471,7 @@ input:focus-visible {
 
 .modal-content {
     border: 0;
+    box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.12);
 }
 
 .add_modal .download {
@@ -527,4 +529,53 @@ input:focus-visible {
     font-weight: 600;
     line-height: 28px;
     text-transform: capitalize;
+}
+
+.our_mission {
+    background-image: url('../src/assets/green-paper.png'), url('../src/assets/tomato.png');
+    background-repeat: no-repeat;
+    background-position: left center, right center;
+    padding-bottom: 130px;
+}
+
+.our_mission h6 {
+    color: var(--color-primary, #075759);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    background: var(--color-primary-10, #E6EEEE);
+    padding: 14px 32px;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.our_mission h1 {
+    color: var(--palette-black-black-alpha-100, #000);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 130%;
+    margin-bottom: 25px;
+}
+
+.our_mission h1 span {
+    color: var(--color-secondary, #FD7E00);
+}
+
+.our_mission p {
+    color: #363636;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 45px;
+}
+
+.our_mission button {
+    color: var(--palette-white-white-alpha-100, #FFF);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-transform: capitalize;
+    border-radius: 8px;
+    background: var(--color-primary, #075759);
+    padding: 14px 32px;
 }
