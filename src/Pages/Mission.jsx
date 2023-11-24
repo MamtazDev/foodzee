@@ -3,6 +3,7 @@ import PageBanner from "../Utils/PageBanner";
 import OurMission from "../Components/Mission/OurMission";
 import Vision from "../Components/Mission/Vision";
 import Challenge from "../Components/Mission/Challenge";
+import Solution from "../Components/Mission/Solution";
 
 const Mission = () => {
   return (
@@ -11,6 +12,7 @@ const Mission = () => {
       <OurMission />
       <Vision />
       <Challenge />
+      <Solution />
     </div>
   );
 };
