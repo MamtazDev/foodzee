@@ -3,6 +3,7 @@ import Banner from "../Components/Home/Banner";
 import Quarter from "../Components/Home/Quarter";
 import Sustainability from "../Components/Home/Sustainability";
 import Impact from "../Components/Home/Impact";
+import Dining from "../Components/Home/Dining";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Quarter />
       <Sustainability />
       <Impact />
+      <Dining />
     </div>
   );
 };
