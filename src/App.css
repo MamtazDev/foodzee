@@ -538,7 +538,7 @@ input:focus-visible {
     padding-bottom: 130px;
 }
 
-.our_mission h6 {
+.title_btn {
     color: var(--color-primary, #075759);
     font-size: 16px;
     font-weight: 700;
@@ -578,4 +578,56 @@ input:focus-visible {
     border-radius: 8px;
     background: var(--color-primary, #075759);
     padding: 14px 32px;
+}
+
+.vision {
+    background: linear-gradient(297deg, rgba(132, 211, 162, 0.14) -0.74%, rgba(255, 255, 255, 0.00) 72.46%);
+    position: relative;
+    margin-bottom: 130px;
+}
+
+.vision .vision_inner {
+    background-image: url('../src/assets/vision-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 125px 0 115px;
+}
+
+
+.vision h1 {
+    color: var(--palette-black-black-alpha-100, #000);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 130%;
+    margin-bottom: 25px;
+}
+
+.vision h1 span {
+    color: var(--color-secondary, #FD7E00);
+}
+
+.vision p {
+    color: #363636;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.vision .note {
+    background: var(--color-primary, #075759);
+    padding: 36px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    max-width: 813px;
+    position: absolute;
+    bottom: 73px;
+    right: 13%;
+}
+
+.vision .note p {
+    color: var(--palette-white-white-alpha-100, #FFF);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
 }

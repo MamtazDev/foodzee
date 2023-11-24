@@ -6,7 +6,7 @@ const OurMission = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
-            <h6 className="f_inter">
+            <h6 className="f_inter title_btn">
               A Journey of Sustainability and Affordability
             </h6>
             <h1>
