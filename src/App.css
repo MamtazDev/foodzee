@@ -453,3 +453,45 @@ input:focus-visible {
     line-height: 24px;
     white-space: nowrap;
 }
+
+.modal-xl {
+    width: 1076px !important;
+    background: var(--palette-white-white-alpha-100, #FFF);
+    box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.12);
+}
+
+.modal-dialog-centered {
+    /* min-height: unset !important; */
+}
+
+.add_modal .modal-body {
+    padding: 0;
+}
+
+.modal-content {
+    border: 0;
+}
+
+.add_modal .download {
+    background: linear-gradient(142deg, #075759 -0.1%, rgba(7, 87, 89, 0.00) 159.25%);
+}
+
+.add_modal h1 {
+    color: var(--palette-background-dark-muted-background-dark-muted-alpha-100, #252526);
+    font-size: 36px !important;
+    font-weight: 800;
+    line-height: 130%;
+    margin-bottom: 13px;
+}
+
+.add_modal h1 span {
+    color: var(--color-secondary, #FD7E00);
+}
+
+.add_modal p {
+    color: #363636;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 140%;
+    margin-bottom: 35px;
+}
