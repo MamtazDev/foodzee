@@ -11,6 +11,10 @@ input:focus-visible {
     outline: none;
 }
 
+h1 span {
+    color: var(--color-secondary, #FD7E00);
+}
+
 .container {
     max-width: 1420px;
 }
@@ -81,9 +85,7 @@ input:focus-visible {
     margin-bottom: 17px;
 }
 
-.banner h1 span {
-    color: var(--color-secondary, #FD7E00);
-}
+
 
 .banner p {
     color: var(--palette-black-black-alpha-100, #000);
@@ -361,10 +363,6 @@ input:focus-visible {
     margin-bottom: 5px;
 }
 
-.discover h1 span {
-    color: var(--color-secondary, #FD7E00);
-}
-
 .discover p {
     color: #363636;
     font-size: 20px;
@@ -486,10 +484,6 @@ input:focus-visible {
     margin-bottom: 13px;
 }
 
-.add_modal h1 span {
-    color: var(--color-secondary, #FD7E00);
-}
-
 .add_modal p {
     color: #363636;
     font-size: 20px;
@@ -557,9 +551,6 @@ input:focus-visible {
     margin-bottom: 25px;
 }
 
-.our_mission h1 span {
-    color: var(--color-secondary, #FD7E00);
-}
 
 .our_mission p {
     color: #363636;
@@ -602,9 +593,6 @@ input:focus-visible {
     margin-bottom: 25px;
 }
 
-.vision h1 span {
-    color: var(--color-secondary, #FD7E00);
-}
 
 .vision p {
     color: #363636;
@@ -653,10 +641,6 @@ input:focus-visible {
     margin-bottom: 25px;
 }
 
-.challenge h1 span {
-    color: var(--color-secondary, #FD7E00);
-}
-
 .challenge p {
     color: #363636;
     font-size: 18px;
@@ -702,9 +686,6 @@ input:focus-visible {
     padding-left: 30px;
 }
 
-.solution h1 span {
-    color: var(--color-secondary, #FD7E00);
-}
 
 .solution .solution_right {
     background-image: url('../src/assets/solution-bg.png');
@@ -735,4 +716,33 @@ input:focus-visible {
     font-size: 24px;
     font-weight: 500;
     line-height: 160%;
+}
+
+.winwin {
+    background: var(--color-primary, #075759);
+    padding: 130px 0;
+    margin-bottom: 130px;
+}
+
+.winwin .winwin_header {
+    max-width: 885px;
+    margin: auto;
+    text-align: center;
+}
+
+.winwin .winwin_header h1 {
+    color: var(--palette-white-white-alpha-100, #FFF);
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.winwin .winwin_header p {
+    color: var(--palette-white-white-alpha-100, #FFF);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 54px;
 }

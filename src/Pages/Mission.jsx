@@ -4,6 +4,7 @@ import OurMission from "../Components/Mission/OurMission";
 import Vision from "../Components/Mission/Vision";
 import Challenge from "../Components/Mission/Challenge";
 import Solution from "../Components/Mission/Solution";
+import WinWin from "../Components/Mission/WinWin";
 
 const Mission = () => {
   return (
@@ -13,6 +14,7 @@ const Mission = () => {
       <Vision />
       <Challenge />
       <Solution />
+      <WinWin />
     </div>
   );
 };
