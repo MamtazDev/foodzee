@@ -495,3 +495,36 @@ input:focus-visible {
     line-height: 140%;
     margin-bottom: 35px;
 }
+
+.page_banner {
+    background-image: url('../src/assets/page-banner-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 101px 0;
+    text-align: center;
+    margin-bottom: 130px;
+    background-position: bottom center;
+}
+
+.page_banner h1 {
+    color: var(--palette-black-black-alpha-100, #000);
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 45px;
+}
+
+.page_banner .parent {
+    color: var(--palette-black-black-alpha-100, #000);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 160%;
+}
+
+.page_banner .child {
+    color: var(--color-secondary, #FD7E00);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-transform: capitalize;
+}

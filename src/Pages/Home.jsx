@@ -6,7 +6,6 @@ import Impact from "../Components/Home/Impact";
 import Dining from "../Components/Home/Dining";
 import Discover from "../Components/Home/Discover";
 import Opportunity from "../Components/Home/Opportunity";
-import JoinPower from "../Components/Home/JoinPower";
 import AddModal from "../Components/Modal/AddModal";
 
 const Home = () => {
@@ -30,7 +29,6 @@ const Home = () => {
       <Dining />
       <Discover />
       <Opportunity />
-      <JoinPower />
     </div>
   );
 };
