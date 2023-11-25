@@ -1001,3 +1001,205 @@ h1 span {
     width: 100%;
     padding: 14px 32px;
 }
+
+.welcome {
+    background-image: url('../src/assets/press-bg.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin-bottom: 130px;
+}
+
+.welcome h1 {
+    color: var(--palette-black-black-alpha-100, #000);
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 130%;
+    margin-bottom: 25px;
+}
+
+.welcome h6 {
+    color: var(--color-primary, #075759);
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 130%;
+    margin-bottom: 25px;
+}
+
+.welcome p {
+    color: #363636;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.latest {
+    padding-bottom: 130px;
+    background-image: url('../src/assets/dining-bg-left.png'), url(../src/assets/dining-bg-right.png);
+    background-repeat: no-repeat;
+    background-position: left center, right center;
+}
+
+.latest h1 {
+    color: var(--palette-black-black-alpha-100, #000);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 130%;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.latest .latest_card {
+    background: var(--palette-white-white-alpha-100, #FFF);
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.08);
+    padding: 21px;
+}
+
+.latest .latest_card img {
+    margin-bottom: 23px;
+}
+
+.latest .latest_card p {
+    color: var(--palette-black-black-alpha-100, #000);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+}
+
+.review {
+    background: linear-gradient(99deg, rgba(132, 211, 162, 0.80) -3.92%, #FAE4CE 106.14%);
+    padding: 100px 0;
+    margin-bottom: 130px;
+}
+
+.review .review_inner {
+    background-image: url('assets/review-chili-bg.png'), url('assets/review-mint-bg.png');
+    background-repeat: no-repeat;
+    background-position: left bottom, top right;
+}
+
+.review h1 {
+    color: var(--palette-black-black-alpha-100, #000);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 130%;
+    max-width: 789px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.review .review_card {
+    border-radius: 10px;
+    background: #FDFBF9;
+    padding: 28px 29px;
+}
+
+.review_card .description {
+    color: var(--Black, #0A102F);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 32px;
+}
+
+.review_card h6 {
+    color: var(--Black, #0A102F);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+
+.review_card .identity {
+    color: var(--Black, #0A102F);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.support_contact {
+    background: linear-gradient(111deg, rgba(132, 211, 162, 0.14) -22.24%, #FDB 115.83%);
+    padding: 49px 0;
+    margin-bottom: 130px;
+}
+
+.support_inner {
+    background-image: url('assets/contact-bg2.png'), url('assets/contact-bg-1.png');
+    background-repeat: no-repeat;
+    background-position: left bottom, right top;
+
+}
+
+.support_contact .support_form {
+    max-width: 1038px;
+    margin: auto;
+    padding: 79px 0;
+}
+
+.faq {
+    background-image: url('../src/assets/dining-bg-left.png'), url(../src/assets/dining-bg-right.png), url('assets/faq-bg.png'), url('assets/press-bg.png');
+    background-repeat: no-repeat;
+    background-position: left center, right center, bottom left, top right;
+    padding-bottom: 130px;
+}
+
+.faq h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.faq h6 {
+    color: var(--Black, #0A102F);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.faq .accordion_card {
+    border-radius: 10px;
+    border: 2px solid var(--palette-black-black-alpha-100, #000);
+    background: var(--palette-white-white-alpha-100, #FFF);
+    padding: 30px;
+
+    max-width: 926px;
+    margin: auto;
+}
+
+.faq .card_after {
+    position: relative;
+}
+
+.faq .card_after::after {
+    content: '';
+    position: absolute;
+    background-color: #000 !important;
+    bottom: -15px;
+    right: -15px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.faq .question {
+    color: var(--palette-black-black-alpha-100, #000);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 140%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq .answer {
+    color: var(--Black, #0A102F);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+}
