@@ -8,6 +8,8 @@ import WinWin from "../Components/Mission/WinWin";
 import Economic from "../Components/Mission/Economic";
 import Impact from "../Components/Mission/Impact";
 import Difference from "../Components/Mission/Difference";
+import Join from "../Components/Mission/Join";
+import Download from "../Components/Mission/Download";
 
 const Mission = () => {
   return (
@@ -18,7 +20,9 @@ const Mission = () => {
       <Challenge />
       <Solution />
       <WinWin />
-      <Difference/>
+      <Join />
+      <Download />
+      <Difference />
       <Impact />
       <Economic />
     </div>

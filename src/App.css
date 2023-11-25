@@ -820,6 +820,7 @@ h1 span {
 .difference {
     background: linear-gradient(106deg, rgba(231, 254, 255, 0.14) -0.81%, #FFF1E3 134.34%);
     padding: 130px 0 206px;
+    margin-bottom: 130px;
 
 }
 
@@ -867,4 +868,39 @@ h1 span {
     background-position: center;
     padding: 61px 50px;
     border-radius: 21px;
+}
+
+.join {
+    background-image: url('../src/assets/double-tomato.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    margin-bottom: 100px;
+}
+
+.download {
+    background-image: url('../src/assets/mint.png');
+    background-repeat: no-repeat;
+    background-position: left 15% center;
+
+}
+
+.join p,
+.download p {
+    color: var(--palette-background-dark-muted-background-dark-muted-alpha-100, #252526);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 56px;
+}
+
+.join button,
+.download button {
+    color: var(--palette-white-white-alpha-100, #FFF);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-transform: capitalize;
+    border-radius: 8px;
+    background: var(--color-primary, #075759);
+    padding: 14px 32px;
 }
