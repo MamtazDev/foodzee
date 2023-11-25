@@ -4,6 +4,7 @@ import Home from "../Pages/Home";
 import HomeTwo from './../Pages/HomeTwo';
 import Mission from "../Pages/Mission";
 import Contact from "../Pages/Contact";
+import Press from "../Pages/Press";
 
 export const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ export const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/press",
+        element: <Press />,
       },
     ],
   },

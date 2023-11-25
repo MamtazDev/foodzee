@@ -1001,3 +1001,33 @@ h1 span {
     width: 100%;
     padding: 14px 32px;
 }
+
+.welcome {
+    background-image: url('../src/assets/press-bg.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin-bottom: 130px;
+}
+
+.welcome h1 {
+    color: var(--palette-black-black-alpha-100, #000);
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 130%;
+    margin-bottom: 25px;
+}
+
+.welcome h6 {
+    color: var(--color-primary, #075759);
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 130%;
+    margin-bottom: 25px;
+}
+
+.welcome p {
+    color: #363636;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+}
