@@ -751,6 +751,7 @@ h1 span {
     background-image: url('../src/assets/red-chili.png'), url('../src/assets/red-chili2.png');
     background-repeat: no-repeat;
     background-position: left bottom, right top;
+    margin-bottom: 130px;
 }
 
 .economic h1 {
@@ -781,4 +782,89 @@ h1 span {
     font-size: 20px;
     font-weight: 400;
     line-height: 160%;
+}
+
+.env_impact {
+    margin-bottom: 130px;
+}
+
+.env_impact h1 {
+    color: var(--palette-background-dark-muted-background-dark-muted-alpha-100, #252526);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 51px;
+}
+
+.env_impact .green_box {
+    border-radius: 7px;
+    background: #DAF9E6;
+    color: #363636;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 140%;
+    padding: 31px 39px;
+    margin-bottom: 21px;
+}
+
+.env_impact .pink_box {
+    border-radius: 7px;
+    background: var(--palette-orange-50-orange-50-alpha-90, rgba(255, 247, 237, 0.90));
+    padding: 31px 39px;
+    color: #363636;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.difference {
+    background: linear-gradient(106deg, rgba(231, 254, 255, 0.14) -0.81%, #FFF1E3 134.34%);
+    padding: 130px 0 206px;
+
+}
+
+.difference .diff_inner {
+    background-image: url('../src/assets/difference-bg.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.difference h1 {
+    color: var(--palette-white-white-alpha-100, #FFF);
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 5px;
+}
+
+.difference .white_txt {
+    color: var(--palette-white-white-alpha-100, #FFF);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.difference .black_txt {
+    color: var(--palette-background-dark-muted-background-dark-muted-alpha-100, #252526);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 160%;
+    margin-bottom: 59px;
+
+}
+
+.difference .green_txt {
+    color: var(--color-primary, #075759);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+.difference .diff {
+    background-image: url('../src/assets/diff.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 61px 50px;
+    border-radius: 21px;
 }

@@ -6,6 +6,8 @@ import Challenge from "../Components/Mission/Challenge";
 import Solution from "../Components/Mission/Solution";
 import WinWin from "../Components/Mission/WinWin";
 import Economic from "../Components/Mission/Economic";
+import Impact from "../Components/Mission/Impact";
+import Difference from "../Components/Mission/Difference";
 
 const Mission = () => {
   return (
@@ -16,6 +18,8 @@ const Mission = () => {
       <Challenge />
       <Solution />
       <WinWin />
+      <Difference/>
+      <Impact />
       <Economic />
     </div>
   );
