@@ -1116,3 +1116,22 @@ h1 span {
     font-weight: 400;
     line-height: 20px;
 }
+
+.support_contact {
+    background: linear-gradient(111deg, rgba(132, 211, 162, 0.14) -22.24%, #FDB 115.83%);
+    padding: 49px 0;
+    margin-bottom: 130px;
+}
+
+.support_inner {
+    background-image: url('assets/contact-bg2.png'), url('assets/contact-bg-1.png');
+    background-repeat: no-repeat;
+    background-position: left bottom, right top;
+
+}
+
+.support_contact .support_form {
+    max-width: 1038px;
+    margin: auto;
+    padding: 79px 0;
+}
