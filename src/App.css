@@ -1064,3 +1064,55 @@ h1 span {
     line-height: 32px;
     letter-spacing: -0.5px;
 }
+
+.review {
+    background: linear-gradient(99deg, rgba(132, 211, 162, 0.80) -3.92%, #FAE4CE 106.14%);
+    padding: 100px 0;
+    margin-bottom: 130px;
+}
+
+.review .review_inner {
+    background-image: url('assets/review-chili-bg.png'), url('assets/review-mint-bg.png');
+    background-repeat: no-repeat;
+    background-position: left bottom, top right;
+}
+
+.review h1 {
+    color: var(--palette-black-black-alpha-100, #000);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 130%;
+    max-width: 789px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.review .review_card {
+    border-radius: 10px;
+    background: #FDFBF9;
+    padding: 28px 29px;
+}
+
+.review_card .description {
+    color: var(--Black, #0A102F);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 32px;
+}
+
+.review_card h6 {
+    color: var(--Black, #0A102F);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+
+.review_card .identity {
+    color: var(--Black, #0A102F);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
