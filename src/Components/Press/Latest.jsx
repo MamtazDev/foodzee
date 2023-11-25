@@ -41,7 +41,7 @@ const Latest = () => {
   return (
     <div className="latest">
       <div className="container">
-        <h1>Latest Press Releases</h1>
+        <h1>Latest <span>Press Releases</span></h1>
         <div className="row g-4">
           {list.map((data, index) => (
             <div key={index} className="col-md-6  col-lg-4">

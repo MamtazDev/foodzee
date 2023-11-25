@@ -1045,6 +1045,7 @@ h1 span {
     font-weight: 800;
     line-height: 130%;
     margin-bottom: 25px;
+    text-align: center;
 }
 
 .latest .latest_card {
@@ -1134,4 +1135,71 @@ h1 span {
     max-width: 1038px;
     margin: auto;
     padding: 79px 0;
+}
+
+.faq {
+    background-image: url('../src/assets/dining-bg-left.png'), url(../src/assets/dining-bg-right.png), url('assets/faq-bg.png'), url('assets/press-bg.png');
+    background-repeat: no-repeat;
+    background-position: left center, right center, bottom left, top right;
+    padding-bottom: 130px;
+}
+
+.faq h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.faq h6 {
+    color: var(--Black, #0A102F);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.faq .accordion_card {
+    border-radius: 10px;
+    border: 2px solid var(--palette-black-black-alpha-100, #000);
+    background: var(--palette-white-white-alpha-100, #FFF);
+    padding: 30px;
+
+    max-width: 926px;
+    margin: auto;
+}
+
+.faq .card_after {
+    position: relative;
+}
+
+.faq .card_after::after {
+    content: '';
+    position: absolute;
+    background-color: #000 !important;
+    bottom: -15px;
+    right: -15px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.faq .question {
+    color: var(--palette-black-black-alpha-100, #000);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 140%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq .answer {
+    color: var(--Black, #0A102F);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
 }
