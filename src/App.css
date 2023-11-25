@@ -746,3 +746,39 @@ h1 span {
     line-height: 24px;
     margin-bottom: 54px;
 }
+
+.economic {
+    background-image: url('../src/assets/red-chili.png'), url('../src/assets/red-chili2.png');
+    background-repeat: no-repeat;
+    background-position: left bottom, right top;
+}
+
+.economic h1 {
+    color: var(--palette-background-dark-muted-background-dark-muted-alpha-100, #252526);
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 130%;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.economic .economic_card {
+    border-radius: 4px;
+    border: 1px solid #EEE;
+    text-align: center;
+}
+
+.economic_card .title {
+    color: var(--palette-black-black-alpha-100, #000);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 25px;
+}
+
+.economic_card .content {
+    color: var(--palette-black-black-alpha-100, #000);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 160%;
+}
