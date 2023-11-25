@@ -1031,3 +1031,36 @@ h1 span {
     font-weight: 400;
     line-height: 160%;
 }
+
+.latest {
+    padding-bottom: 130px;
+    background-image: url('../src/assets/dining-bg-left.png'), url(../src/assets/dining-bg-right.png);
+    background-repeat: no-repeat;
+    background-position: left center, right center;
+}
+
+.latest h1 {
+    color: var(--palette-black-black-alpha-100, #000);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 130%;
+    margin-bottom: 25px;
+}
+
+.latest .latest_card {
+    background: var(--palette-white-white-alpha-100, #FFF);
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.08);
+    padding: 21px;
+}
+
+.latest .latest_card img {
+    margin-bottom: 23px;
+}
+
+.latest .latest_card p {
+    color: var(--palette-black-black-alpha-100, #000);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+}
