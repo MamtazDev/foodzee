@@ -904,3 +904,100 @@ h1 span {
     background: var(--color-primary, #075759);
     padding: 14px 32px;
 }
+
+.map {
+    padding-bottom: 130px;
+    background-image: url('../src/assets/map-bg.png');
+    background-repeat: no-repeat;
+    background-position: left bottom 30%;
+}
+
+.matters {
+    margin-bottom: 130px;
+}
+
+.matters h1 {
+    color: #363636;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 63px;
+}
+
+.matters .matters_card {
+    border-radius: 8px;
+    background: var(--color-secondary-10, #FFF2E5);
+    padding: 40px;
+    display: flex;
+    align-items: start;
+    gap: 30px;
+    max-width: 530px;
+}
+
+.matters .matters_card .title {
+    color: #363636;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 160%;
+    margin-bottom: 5px;
+}
+
+.matters .matters_card .content {
+    color: #363636;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.contact_form {
+    border-radius: 10px;
+    border: 2px solid var(--color-primary-20, #CDDDDE);
+    background: var(--palette-white-white-alpha-100, #FFF);
+    padding: 39px 36px;
+}
+
+.contact_form h2 {
+    color: var(--color-primary, #075759);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
+.contact_form label {
+    color: #363636;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 160%;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.contact_form input,
+.contact_form textarea {
+    border-radius: 8px;
+    border: 1px solid #EEE;
+    background: var(--color-primary-5, #F3F7F7);
+    padding: 24px;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.contact_form input::placeholder {
+    color: #363636;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.contact_form button {
+    color: var(--palette-white-white-alpha-100, #FFF);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-transform: capitalize;
+    border-radius: 8px;
+    background: var(--color-primary, #075759);
+    width: 100%;
+    padding: 14px 32px;
+}

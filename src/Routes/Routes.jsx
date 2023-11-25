@@ -3,6 +3,7 @@ import Main from "../Layouts/Main";
 import Home from "../Pages/Home";
 import HomeTwo from './../Pages/HomeTwo';
 import Mission from "../Pages/Mission";
+import Contact from "../Pages/Contact";
 
 export const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ export const router = createBrowserRouter([
       {
         path: "/mission",
         element: <Mission />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
       },
     ],
   },
