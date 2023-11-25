@@ -49,7 +49,7 @@ const AddModal = ({ modalRef }) => {
                     </div>
                   </div>
                 </div>
-                <div className="col-5 download text-end p-0">
+                <div className="col-5 download_sec text-end p-0">
                   <button data-bs-dismiss="modal">
                     <img className="p-2" src={close} alt="" />
                   </button>
