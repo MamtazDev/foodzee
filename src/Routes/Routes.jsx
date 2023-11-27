@@ -6,6 +6,7 @@ import Mission from "../Pages/Mission";
 import Contact from "../Pages/Contact";
 import Press from "../Pages/Press";
 import Support from "../Pages/Support";
+import Terms from "../Pages/Terms";
 
 export const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ export const router = createBrowserRouter([
       {
         path: "/support",
         element: <Support />,
+      },
+      {
+        path: "/terms",
+        element: <Terms/> ,
       },
     ],
   },
