@@ -1217,14 +1217,15 @@ h1 span {
     height: 100%;
 }
 
-.terms .tabs button {
+.terms .tabs a {
     color: var(--palette-black-black-alpha-100, #000);
     font-size: 18px;
     font-weight: 500;
     line-height: 160%;
+    text-decoration: none;
 }
 
-.terms .tabs button.active {
+.terms .tabs a.active {
     color: var(--color-primary, #075759);
 }
 

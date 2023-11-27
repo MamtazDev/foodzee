@@ -1,10 +1,8 @@
-import { Outlet } from "react-router-dom";
-import Header from "../Components/Shared/Header";
-import JoinPower from "../Components/Shared/JoinPower";
-import Footer from "../Components/Shared/footer/Footer";
-import PageBanner from "../Utils/PageBanner";
+import { Link, useLocation } from "react-router-dom";
 
 const TermsLayout = ({ children }) => {
+  let location = useLocation();
+  console.log(location.pathname, "pppppppp");
   return (
     <div>
       <div className="terms">
@@ -12,24 +10,30 @@ const TermsLayout = ({ children }) => {
           <div className="row">
             <div className="col-lg-2">
               <div className="tabs f_inter">
-                <button
-                // className={`${tab === 1 && "active"}`}
-                // onClick={() => setTab(1)}
+                <Link
+                  to="/terms-of-conditions"
+                  className={`${
+                    location.pathname === "/terms-of-conditions" && "active"
+                  }`}
                 >
                   Terms Of Conditions
-                </button>
-                <button
-                // className={`${tab === 2 && "active"}`}
-                // onClick={() => setTab(2)}
+                </Link>
+                <Link
+                  to="/privacy-policy"
+                  className={`${
+                    location.pathname === "/privacy-policy" && "active"
+                  }`}
                 >
                   Privacy Policy{" "}
-                </button>
-                <button
-                // className={`${tab === 3 && "active"}`}
-                // onClick={() => setTab(3)}
+                </Link>
+                <Link
+                  to="/cookie-policy"
+                  className={`${
+                    location.pathname === "/cookie-policy" && "active"
+                  }`}
                 >
                   Cookie Policy
-                </button>
+                </Link>
               </div>
             </div>
             <div className="col-lg-1"></div>

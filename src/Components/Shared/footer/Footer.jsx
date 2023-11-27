@@ -135,7 +135,7 @@ const Footer = () => {
                                             </Link>
                                         </li>
                                         <li className='nav_item'>
-                                            <Link to={"/terms-conditions"} className='fs_18 fw-normal f_inter f_clr_19c2 text-decoration-none'>
+                                            <Link to={"/terms-of-conditions"} className='fs_18 fw-normal f_inter f_clr_19c2 text-decoration-none'>
                                                 Terms & Conditions
                                             </Link>
                                         </li>
