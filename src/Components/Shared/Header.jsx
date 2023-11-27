@@ -1,7 +1,11 @@
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/logo.png";
+import { useContext, useState } from "react";
+import { MyContext } from "../../MyContext";
 
 const Header = () => {
+  const { activeButton, handleButtonClick } = useContext(MyContext)
+
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container">
@@ -22,16 +26,11 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <NavLink
-                className={({ isActive }) =>
-                  isActive ? "nav-link active" : "nav-link"
-                }
-                aria-current="page"
-                to="/"
-              >
+              <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} aria-current="page" to="/">
                 Home
               </NavLink>
             </li>
+
             <li className="nav-item">
               <NavLink
                 className={({ isActive }) =>
@@ -42,6 +41,7 @@ const Header = () => {
                 Our Mission
               </NavLink>
             </li>
+
             <li className="nav-item">
               <NavLink
                 className={({ isActive }) =>
@@ -52,6 +52,7 @@ const Header = () => {
                 Contact Us
               </NavLink>
             </li>
+
             <li className="nav-item">
               <NavLink
                 className={({ isActive }) =>
@@ -62,6 +63,7 @@ const Header = () => {
                 Press
               </NavLink>
             </li>
+
             <li className="nav-item">
               <NavLink
                 className={({ isActive }) =>
@@ -73,20 +75,21 @@ const Header = () => {
               </NavLink>
             </li>
           </ul>
-          <form className="d-flex align-items-center gap-4" role="search">
-            <NavLink
-              className={({ isActive }) =>
-                isActive ? "nav-link active" : "nav-link"
-              }
-              to="#"
-            >
+
+          <div className="d-flex align-items-center gap-4" role="search">
+            <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="#" >
               Download Now
             </NavLink>
             <div className="user_tab">
-              <button>User</button>
-              <button className="active">Business</button>
+              <button className={activeButton === 'User' ? 'active' : ''} onClick={() => handleButtonClick('User')}>
+                User
+              </button>
+
+              <button className={activeButton === 'Business' ? 'active' : ''} onClick={() => handleButtonClick('Business')}>
+                Business
+              </button>
             </div>
-          </form>
+          </div>
         </div>
       </div>
     </nav>
