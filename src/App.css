@@ -1245,7 +1245,8 @@ h1 span {
 
 }
 
-.terms_option h2::before {
+.terms_option h2::before,
+.terms_option .sub_info h3::before {
     position: absolute;
     content: '';
     width: 16px;
@@ -1263,4 +1264,22 @@ h1 span {
     font-size: 18px;
     font-weight: 400;
     line-height: 160%;
+}
+
+.terms_option .sub_info {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 50px;
+    padding-left: 42px;
+}
+
+.terms_option .sub_info h3 {
+    position: relative;
+    color: var(--palette-black-black-alpha-100, #000);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    padding-left: 26px;
+    margin-bottom: 19px;
 }

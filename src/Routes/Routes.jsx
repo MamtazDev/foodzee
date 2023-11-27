@@ -7,6 +7,7 @@ import Contact from "../Pages/Contact";
 import Press from "../Pages/Press";
 import Support from "../Pages/Support";
 import Terms from "../Pages/Terms";
+import Privacy from "../Pages/Privacy";
 
 export const router = createBrowserRouter([
   {
@@ -38,8 +39,12 @@ export const router = createBrowserRouter([
         element: <Support />,
       },
       {
-        path: "/terms",
+        path: "/terms-of-condition",
         element: <Terms/> ,
+      },
+      {
+        path: "/privacy-policy",
+        element: <Privacy/> ,
       },
     ],
   },
