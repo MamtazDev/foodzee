@@ -6,26 +6,32 @@ const Faq = () => {
   const [isOpen, setIsOpen] = useState(null);
   const accoprdionData = [
     {
+      id:1,
       ques: "What is Foodzee's mission?",
       ans: "",
     },
     {
+      id:2,
       ques: "How does Foodzee help restaurants reduce food waste?",
       ans: "",
     },
     {
+      id:3,
       ques: " Why should consumers use the Foodzee app?",
       ans: "",
     },
     {
+      id:4,
       ques: "Is the Foodzee app available on both Android and iOS devices?",
       ans: "",
     },
     {
+      id:5,
       ques: "How does the website complement the Foodzee app?",
       ans: "",
     },
     {
+      id:6,
       ques: "How can restaurants and diners engage with Foodzee through the website?",
       ans: "",
     },
@@ -43,19 +49,19 @@ const Faq = () => {
             <div
               key={index}
               className={`${
-                index === isOpen && "card_after "
+                data?.id === isOpen && "card_after "
               } accordion_card mb-4`}
             >
               <div
-                onClick={() => setIsOpen(index === isOpen ? null : index)}
+                onClick={() => setIsOpen(data?.id === isOpen ? null : data?.id)}
                 className={`d-flex align-items-center justify-content-between ${
-                  index === isOpen && "mb-3"
+                  data?.id === isOpen && "mb-3"
                 }`}
               >
                 <p className="question ">Q. {data.ques}</p>
-                <img src={isOpen === index ? minus : plus} alt="icon" />
+                <img src={isOpen === data?.id ? minus : plus} alt="icon" />
               </div>
-              {isOpen === index && (
+              {isOpen === data?.id && (
                 <p className="answer f_inter">
                   Foodzee's mission is twofold: to assist restaurants in
                   reducing food waste through time-bound promotions on excess
@@ -72,19 +78,19 @@ const Faq = () => {
             <div
               key={index}
               className={`${
-                index === isOpen && "card_after "
+                data?.id === isOpen && "card_after "
               } accordion_card mb-4`}
             >
               <div
-                onClick={() => setIsOpen(index === isOpen ? null : index)}
+                onClick={() => setIsOpen(data?.id === isOpen ? null : data?.id)}
                 className={`d-flex align-items-center justify-content-between ${
-                  index === isOpen && "mb-3"
+                  data?.id === isOpen && "mb-3"
                 }`}
               >
                 <p className="question ">Q. {data.ques}</p>
-                <img src={isOpen === index ? minus : plus} alt="icon" />
+                <img src={isOpen === data?.id ? minus : plus} alt="icon" />
               </div>
-              {isOpen === index && (
+              {isOpen === data?.id && (
                 <p className="answer f_inter">
                   Foodzee's mission is twofold: to assist restaurants in
                   reducing food waste through time-bound promotions on excess

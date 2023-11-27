@@ -6,6 +6,9 @@ import Mission from "../Pages/Mission";
 import Contact from "../Pages/Contact";
 import Press from "../Pages/Press";
 import Support from "../Pages/Support";
+import Terms from "../Pages/Terms";
+import Privacy from "../Pages/Privacy";
+import Cookie from "../Pages/Cookie";
 
 export const router = createBrowserRouter([
   {
@@ -35,6 +38,18 @@ export const router = createBrowserRouter([
       {
         path: "/support",
         element: <Support />,
+      },
+      {
+        path: "/terms-of-conditions",
+        element: <Terms/> ,
+      },
+      {
+        path: "/privacy-policy",
+        element: <Privacy/> ,
+      },
+      {
+        path: "/cookie-policy",
+        element: <Cookie/> ,
       },
     ],
   },
