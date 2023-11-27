@@ -105,6 +105,11 @@ p {
     line-height: 58px;
 }
 
+.fs_60 {
+    font-size: 60px;
+    line-height: 70px;
+}
+
 .fs_64 {
     font-size: 64px;
     line-height: 74px;
@@ -149,4 +154,38 @@ p {
     top: 0;
     right: 0;
     z-index: -9;
+}
+
+#foodzaaCachy .joinFoodZee_cachy_links {
+    border-bottom: 1px solid #00000066;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+}
+
+#resturant-portal {
+    background-image: url(../src/assets/resturant-portal.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#partner_growth .partner_growth_wrapper {
+    background-image: url(../src/assets/partner-growth.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.partner_growth_wrapper{
+    padding: 182px 0;
+}
+
+.partner_growth_btn {
+    background-color: white;
+    padding: 14px 32px;
+    border-radius: 8px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #075759;
 }
