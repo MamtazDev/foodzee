@@ -17,7 +17,20 @@ const Header = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="24"
+              viewBox="0 0 25 24"
+              fill="none"
+            >
+              <path
+                d="M3.58823 6H21.5882V8H3.58823V6ZM3.58823 11H21.5882V13H3.58823V11ZM3.58823 16H21.5882V18H3.58823V16Z"
+                fill="black"
+              />
+            </svg>
+          </span>
         </button>
         <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0">

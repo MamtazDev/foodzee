@@ -25,6 +25,18 @@ h1 span {
     box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.08);
 }
 
+.navbar-toggler {
+    border-radius: 6px;
+    background: var(--color-primary-10, #E6EEEE);
+    border: none;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar-toggler-icon{
+    background-image: unset;
+}
+
 .navbar-nav {
     gap: 48px;
 }

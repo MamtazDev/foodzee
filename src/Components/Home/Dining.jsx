@@ -71,10 +71,10 @@ const Dining = () => {
             </div>
           </div>
           <div className="col-lg-4">
-            <img className="img-fliod" src={dining} alt="" />
+            <img className="img-fluid" src={dining} alt="" />
           </div>
           <div className="col-lg-4">
-          <div className="d-flex align-items-center flex-column gap-4">
+            <div className="d-flex align-items-center flex-column gap-4">
               {list.slice(2, 4).map((data, index) => (
                 <div key={index} className="dining_card">
                   <img src={data.pic} alt="" />

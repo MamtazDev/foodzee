@@ -15,7 +15,7 @@ const Banner = () => {
           with Foodzee's Exclusive Deals!
         </p>
         <button className="download_btn f_inter">Download Now!</button>
-        <div className="d-flex align-items-center gap-2">
+        <div className="d-flex flex-wrap align-items-center gap-2">
           <button>
             <img src={googlePlay} alt="" />
           </button>
