@@ -1283,3 +1283,22 @@ h1 span {
     padding-left: 26px;
     margin-bottom: 19px;
 }
+
+.policy_header {
+    margin-bottom: 50px;
+}
+
+.policy_header h1 {
+    color: var(--color-primary, #075759);
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 8px;
+}
+
+.policy_header p {
+    color: #363636;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 160%;
+}

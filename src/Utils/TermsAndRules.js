@@ -142,3 +142,73 @@ export const privacy = [
       "For any questions or concerns regarding these Terms and Conditions, you can contact Foodzee at hello@foodzee.co.uk",
   },
 ];
+
+export const cookie = [
+  {
+    title: "Introduction",
+    content:
+      "Welcome to the Foodzee Cookie Policy. This policy outlines how we use cookies and similar technologies on our website. By using the Foodzee website, you agree to the terms of this Cookie Policy.",
+  },
+  {
+    title: "What Are Cookies",
+    content:
+      "Cookies are small pieces of data stored on your device when you browse our website. They help us improve your browsing experience by remembering your preferences, analyzing website performance, and providing personalized content.",
+  },
+  {
+    title: "Types of Cookies We Use",
+    subInfo: [
+      {
+        title: "Essential Cookies",
+        content:
+          "Necessary for the functioning of our website. These cookies do not require your consent.",
+      },
+      {
+        title: "Analytics Cookies",
+        content:
+          "Used to collect information about how visitors interact with our website, helping us improve its performance.",
+      },
+      {
+        title: "Functional Cookies",
+        content:
+          "Enhance the user experience by remembering your preferences, such as language and region settings.",
+      },
+    ],
+  },
+  {
+    title: "How We Use Cookies",
+    content:
+      "To access certain features of the website, you may be required to create a user account. You are responsible for maintaining the confidentiality of your account information and agree to accept responsibility for all activities that occur under your account.",
+
+    subInfo: [
+      {
+        title: "We use cookies for various purposes, including",
+
+        options: [
+          "Improving website functionality.",
+          "Analyzing website usage.",
+          "Personalizing your experience.",
+        ],
+      },
+    ],
+  },
+  {
+    title: "Your Cookie Choices",
+    content:
+      "You can manage your cookie preferences by adjusting your browser settings. However, please note that disabling certain cookies may affect the functionality of our website.",
+  },
+  {
+    title: "Third-Party Cookies",
+    content:
+      "Our website may use third-party services that may also set cookies. We do not control the settings of these cookies, so we recommend checking the respective third-party websites for more information.",
+  },
+  {
+    title: "Changes to this Cookie Policy",
+    content:
+      "Our website may use third-party services that may also set cookies. We do not control the settings of these cookies, so we recommend checking the respective third-party websites for more information.",
+  },
+  {
+    title: "Contact Us",
+    content:
+      "For any questions or concerns regarding these Terms and Conditions, you can contact Foodzee at hello@foodzee.co.uk",
+  },
+];

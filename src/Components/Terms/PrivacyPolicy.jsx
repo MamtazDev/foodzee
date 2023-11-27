@@ -1,9 +1,11 @@
 import TermsLayout from "../../Layouts/TermsLayout";
+import PolicyHeader from "../../Utils/PolicyHeader";
 import { privacy } from "../../Utils/TermsAndRules";
 
 const PrivacyPolicy = () => {
   return (
     <TermsLayout>
+      <PolicyHeader title="Privacy Policy" update="Last Updated: February 05, 2023"/>
       <div className="terms_option">
         {privacy.map((data, index) => (
           <div key={index}>
