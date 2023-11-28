@@ -14,7 +14,7 @@ const PartnerGrowth = () => {
                             Foodzee's restaurant portal streamlines operations, engages diners, <br />
                             and enhances revenue, all in one intuitive platform.
                         </p>
-                        
+
                         <button className='partner_growth_btn'>
                             Create account
                         </button>
