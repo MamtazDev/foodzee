@@ -24,9 +24,10 @@ const Banner = () => {
             <img className="img-fluid" src={appStore} alt="" />
           </button>
         </div>
-        <div className="scroll_down text-center">
-          <button>
-            <img className="img-fluid" src={downArrow} alt="" />
+        <div className="bannerarrowDown_wrapper text-center">
+          <button id="bannerarrowDown">
+            <div className="arrow_down"></div>
+            <div className="arrow_down2"></div>
           </button>
         </div>
       </div>
