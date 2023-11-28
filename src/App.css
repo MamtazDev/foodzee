@@ -30,10 +30,12 @@ h1 span {
     background: var(--color-primary-10, #E6EEEE);
     border: none;
 }
+
 .navbar-toggler:focus {
     box-shadow: none;
 }
-.navbar-toggler-icon{
+
+.navbar-toggler-icon {
     background-image: unset;
 }
 
@@ -1314,4 +1316,109 @@ h1 span {
     font-size: 18px;
     font-weight: 500;
     line-height: 160%;
+}
+
+
+@media screen and (max-width:991px) {
+    .navbar {
+        padding: 13px 0;
+    }
+
+    .navbar-nav {
+        margin-top: 20px;
+        gap: 20px;
+    }
+
+    .navbar-brand img {
+        width: 70%;
+    }
+
+    .banner {
+        padding-top: 48px;
+        padding-bottom: 402px;
+        background-image: url('assets/banner-sm-bg.png');
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+
+    .banner h1 {
+        font-size: 40px;
+        margin-bottom: 14px;
+        line-height: 48px
+    }
+
+    .banner p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+
+    .download_btn {
+        font-size: 18px;
+        line-height: 28px;
+        padding: 10px 24px;
+        margin-bottom: 14px
+    }
+
+    .scroll_down {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+
+    .scroll_down img {
+        width: 55%;
+    }
+
+    .quarter {
+        padding-top: 48px;
+    }
+
+    .quarter h2 {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+
+    .quarter img {
+        width: 30%;
+    }
+
+    .quarter_card h3 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .quarter_card p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .sustainability {
+        padding-top: 24px;
+    }
+
+    .sustainability h2 {
+        font-size: 36px;
+        margin-bottom: 8px;
+    }
+
+    .sustainability .content {
+        font-size: 20px;
+        line-height: 140%;
+        margin-bottom: 20px;
+    }
+
+    .sustainability .title {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .sustainability .subtitle {
+        font-size: 14px;
+        line-height: 20px;
+    }
 }

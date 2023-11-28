@@ -29,7 +29,7 @@ const AddModal = ({ modalRef }) => {
           <div className="modal-content">
             <div className="modal-body">
               <div className="row m-0">
-                <div className="col-7 pt-5 pb-1 ps-5">
+                <div className="col-lg-7 pt-5 pb-1 ps-5">
                   <h1>
                     <span>Download the Foodzee App</span> - <br /> Your Gateway
                     to Savings
@@ -41,7 +41,7 @@ const AddModal = ({ modalRef }) => {
                     device and unlock a world of possibilities that redefine the
                     way you dine.
                   </p>
-                  <div className="d-flex align-items-center gap-4">
+                  <div className="d-flex flex-wrap align-items-center gap-4">
                     <img src={qr} alt="" />
                     <div className="d-flex flex-column gap-2 align-items-center">
                       <img src={googlePlay} alt="" />
@@ -49,7 +49,7 @@ const AddModal = ({ modalRef }) => {
                     </div>
                   </div>
                 </div>
-                <div className="col-5 download_sec text-end p-0">
+                <div className="col-lg-5 download_sec text-end p-0">
                   <button data-bs-dismiss="modal">
                     <img className="p-2" src={close} alt="" />
                   </button>
