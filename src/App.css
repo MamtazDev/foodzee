@@ -64,7 +64,6 @@ h1 span {
     transition: 0.3s ease-in;
 }
 
-
 /* ==== banner css ====== */
 
 .banner {
@@ -73,7 +72,7 @@ h1 span {
     background-size: cover;
     background-position: bottom;
     padding-top: 159px;
-    padding-bottom: 35pxd;
+    padding-bottom: 35px;
 }
 
 .banner h1 {
@@ -84,8 +83,6 @@ h1 span {
     max-width: 751px;
     margin-bottom: 17px;
 }
-
-
 
 .banner p {
     color: var(--palette-black-black-alpha-100, #000);
@@ -109,7 +106,62 @@ h1 span {
     transition: 0.3s ease-in;
 }
 
+.bannerarrowDown_wrapper {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+#bannerarrowDown {
+    padding: 32px 20px;
+    border-radius: 36px;
+    box-shadow: 0px 8px 32px 0px rgba(7, 87, 89, 0.20);
+}
+
+#bannerarrowDown .arrow_down {
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    z-index: 80;
+    border-width: 0 2px 2px 0;
+    border-style: solid;
+    border-color: #075759;
+    animation: scrolldown 1.2s ease-in-out infinite 0.15s;
+    transform: translateY(0%) rotate(45deg);
+    opacity: 0;
+}
+
+#bannerarrowDown .arrow_down2 {
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    z-index: 80;
+    border-width: 0 2px 2px 0;
+    border-style: solid;
+    border-color: #075759;
+    animation: scrolldown 1.2s ease-in-out infinite 0.15s;
+    transform: translateY(0%) rotate(45deg);
+    opacity: 0;
+}
+
+@keyframes scrolldown {
+    0% {
+        transform: translateY(20%) rotate(45deg);
+        opacity: 0.7;
+    }
+
+    50% {
+        transform: translateY(0%) rotate(45deg);
+        opacity: 0.2;
+    }
+
+    100% {
+        transform: translateY(20%) rotate(45deg);
+        opacity: 0.7;
+    }
+}
+
 /* ===== quarter css ===== */
+
 .quarter {
     padding: 130px 0;
     text-align: center;
@@ -187,6 +239,7 @@ h1 span {
 }
 
 /* sustainability css */
+
 .sustainability {
     background: var(--color-primary, #075759);
     padding-top: 124px;
@@ -551,7 +604,6 @@ h1 span {
     margin-bottom: 25px;
 }
 
-
 .our_mission p {
     color: #363636;
     font-size: 16px;
@@ -584,7 +636,6 @@ h1 span {
     padding: 125px 0 115px;
 }
 
-
 .vision h1 {
     color: var(--palette-black-black-alpha-100, #000);
     font-size: 48px;
@@ -592,7 +643,6 @@ h1 span {
     line-height: 130%;
     margin-bottom: 25px;
 }
-
 
 .vision p {
     color: #363636;

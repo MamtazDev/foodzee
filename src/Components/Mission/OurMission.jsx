@@ -5,7 +5,7 @@ const OurMission = () => {
     <div className="our_mission">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6">
+          <div className="col-lg-6 mb-5 mb-lg-0">
             <h6 className="f_inter title_btn">
               A Journey of Sustainability and Affordability
             </h6>

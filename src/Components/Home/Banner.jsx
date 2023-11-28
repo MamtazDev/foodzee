@@ -15,7 +15,7 @@ const Banner = () => {
           with Foodzee's Exclusive Deals!
         </p>
         <button className="download_btn f_inter">Download Now!</button>
-        <div className="d-flex align-items-center gap-2">
+        <div className="d-flex flex-wrap align-items-center gap-2">
           <button>
             <img src={googlePlay} alt="" />
           </button>
@@ -23,9 +23,10 @@ const Banner = () => {
             <img src={appStore} alt="" />
           </button>
         </div>
-        <div className="text-center">
-          <button>
-            <img src={downArrow} alt="" />
+        <div className="bannerarrowDown_wrapper text-center">
+          <button id="bannerarrowDown">
+            <div className="arrow_down"></div>
+            <div className="arrow_down2"></div>
           </button>
         </div>
       </div>

@@ -29,6 +29,7 @@ const UnlockAchivement = () => {
                             </div>
                         </div>
                     </div>
+
                     <div className="col-lg-6 mb-4 mb-lg-0">
                         <div className="unlock_achivement_card_wrapper bg_clr_4d p-4 bg_clr_91 d-flex flex-column flex-fill h-100">
                             <div className="unlock_achivement_card_head ">
