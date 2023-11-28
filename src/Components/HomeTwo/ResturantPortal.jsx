@@ -6,7 +6,7 @@ const ResturantPortal = () => {
         <section id='resturant-portal' className='section_padding'>
             <div className="container">
                 <div className="row align-items-center">
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 mb-4 mb-lg-0">
                         <div className="resturant-portal-content-wrapper">
                             <div className="joinFoodZee_cachy_title pb_25">
                                 <h2 className='fs_48 fw_extrabold text-white'>
@@ -68,7 +68,6 @@ const ResturantPortal = () => {
                             <img className='img-fluid' src={resturantPortalImg} alt="resturant-img" />
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>

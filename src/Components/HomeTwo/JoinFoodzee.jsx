@@ -8,7 +8,7 @@ const JoinFoodzee = () => {
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-6">
-                        <div className="joinFoodZee_left_content">
+                        <div className="joinFoodZee_left_content mb-4 mb-lg-0">
                             <div className="joinFoodZee_content_title pb_25">
                                 <h2 className='fs_48 fw_extrabold text-black'>
                                     Join the <span className='f_clr_00'>Foodzee?</span> Family
