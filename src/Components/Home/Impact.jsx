@@ -22,8 +22,8 @@ const Impact = () => {
   return (
     <div className="impact">
       <div className="container">
-        <div className="row">
-          <div className="col-lg-6">
+        <div className="row gy-4">
+          <div className="col-xl-6">
             <h2>
               <span>Maximizing</span> Impact and Revenue
             </h2>
@@ -51,7 +51,7 @@ const Impact = () => {
               <button id="special_btn">Learn more</button>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-xl-6">
             <img className="img-fluid" src={impact} alt="" />
           </div>
         </div>

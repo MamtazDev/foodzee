@@ -7,7 +7,7 @@ const Header = () => {
   const { activeButton, handleButtonClick } = useContext(MyContext);
 
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav className="navbar navbar-expand-xl">
       <div className="container">
         <NavLink className="navbar-brand" to="/">
           <img src={logo} alt="" />

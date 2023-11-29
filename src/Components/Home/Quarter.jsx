@@ -58,9 +58,9 @@ const Quarter = () => {
           Over <span>Three-Quarter</span> Of All Food Is Wasted
         </h2>
         <div className="d-none d-md-block">
-          <div className="row ">
+          <div className="row gy-4">
             {list.map((data, index) => (
-              <div className=" col-md-6 col-lg-4" key={index}>
+              <div className=" col-md-6 col-xl-4" key={index}>
                 <div className="quarter_card d-flex align-items-center flex-column h-100">
                   <img className="default" src={data.pic} alt="" />
                   <img className="hov" src={data.picHov} alt="" />
@@ -98,7 +98,7 @@ const Quarter = () => {
         </div>
       </div>
     </div>
-  );
+  );q
 };
 
 export default Quarter;

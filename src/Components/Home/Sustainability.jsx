@@ -28,8 +28,8 @@ const Sustainability = () => {
   return (
     <div className="sustainability">
       <div className="container">
-        <div className="row">
-          <div className="col-lg-6 order-lg-2">
+        <div className="row gy-4">
+          <div className="col-xl-6 order-xl-2">
             <h2>
               <span>Sustainability</span> and Savings
             </h2>
@@ -66,7 +66,7 @@ const Sustainability = () => {
               </button>
             </div>
           </div>
-          <div className="col-lg-6 order-lg-1 ">
+          <div className="col-xl-6 order-xl-1 ">
             <img className="img-fluid" src={sustainability} alt="" />
           </div>
         </div>
