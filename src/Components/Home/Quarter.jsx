@@ -98,7 +98,7 @@ const Quarter = () => {
         </div>
       </div>
     </div>
-  );q
+  );
 };
 
 export default Quarter;
