@@ -1421,4 +1421,16 @@ h1 span {
         font-size: 14px;
         line-height: 20px;
     }
+
+    .add_modal h1 {
+        font-size: 20px !important;
+        line-height: 160%;
+        margin-bottom: 12px;
+    }
+
+    .add_modal p {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 15px;
+    }
 }
