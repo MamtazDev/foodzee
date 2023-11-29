@@ -1443,7 +1443,7 @@ h1 span {
     }
 
     .quarter {
-        padding-top: 48px;
+        padding: 48px 0;
     }
 
     .quarter h2 {
@@ -1468,6 +1468,7 @@ h1 span {
 
     .sustainability {
         padding-top: 24px;
+        padding-bottom: 39px;
     }
 
     .sustainability h2 {
@@ -1501,5 +1502,39 @@ h1 span {
         font-size: 12px;
         line-height: 16px;
         margin-bottom: 15px;
+    }
+
+    #learn_btn {
+        border-radius: 8px;
+        border: 1px solid var(--palette-white-white-alpha-100, #FFF);
+        padding: 5px 14px;
+        color: var(--palette-white-white-alpha-100, #FFF);
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 28px;
+        text-transform: capitalize;
+        background-color: transparent;
+    }
+
+    .sustainability button {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 8px;
+    }
+
+    .impact {
+        padding: 48px 0;
+    }
+
+    .impact h2 {
+        font-size: 36px;
+        line-height: 130%;
+        margin-bottom: 17px;
+    }
+
+    .impact p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 17px;
     }
 }
