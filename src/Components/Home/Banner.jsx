@@ -1,6 +1,8 @@
 import React from "react";
 import googlePlay from "../../assets/google-play.png";
 import appStore from "../../assets/appstore.png";
+import PDFDwonlaod from "../../assets/foodzee.pdf"
+import { Link } from "react-router-dom";
 
 
 const Banner = () => {
@@ -14,7 +16,12 @@ const Banner = () => {
           Economical Eats, Timely Treats: Unleash Savings and Slash Food Waste
           with Foodzee's Exclusive Deals!
         </p>
-        <button className="download_btn f_inter">Download Now!</button>
+        <button className="download_btn f_inter">
+          <Link className="text-decoration-none text-white" to={PDFDwonlaod} download="MyExampleDoc" target='_blank'>
+            Download Now!
+          </Link>
+
+        </button>
         <div className="d-flex  align-items-start  gap-2">
           <button className="p-0">
             <img className="img-fluid" src={googlePlay} alt="" />

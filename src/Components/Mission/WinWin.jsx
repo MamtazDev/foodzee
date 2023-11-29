@@ -8,10 +8,10 @@ const WinWin = () => {
     <div className="winwin">
       <div className="container">
         <div className="winwin_header">
-          <h1>
+          <h1 className="fs_60">
             A <span>Win-Win</span> for Restaurants.
           </h1>
-          <p className="f_inter">
+          <p className="f_inter fs-6">
             For restaurants, Foodzee offers a lifeline. We understand that it's
             not easy to predict customer demand accurately, leading to excess
             food that often goes unsold. With Foodzee, restaurants can now
@@ -24,13 +24,14 @@ const WinWin = () => {
         <div className="row">
           <div className="col-lg-7">
             <div className="row">
-              <div className="col-lg-6">
-                <img src={cake} alt="" />
+              <div className="col-lg-6 mb-4 mb-lg-0">
+                <img className="img-fluid" src={cake} alt="" />
               </div>
-              <div className="col-lg-6 d-flex flex-column gap-4">
-                <img src={egg} alt="" />
-                <img src={soya} alt="" />
+              <div className="col-lg-6 d-flex flex-column gap-4 mb-4 mb-lg-0">
+                <img className="img-fluid" src={egg} alt="" />
+                <img className="img-fluid" src={soya} alt="" />
               </div>
+
             </div>
           </div>
           <div className="col-lg-5">

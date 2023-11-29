@@ -54,7 +54,7 @@ const Economic = () => {
   return (
     <div className="economic">
       <div className="container">
-        <h1>
+        <h1 className="fs_60">
           <span>Economic</span> Realities
         </h1>
 

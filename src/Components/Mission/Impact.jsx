@@ -5,7 +5,7 @@ const Impact = () => {
     <div className="env_impact">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-lg-7">
+          <div className="col-lg-7 mb-4 mb-lg-0">
             <h1>
               The <span>Environmental</span> Impact
             </h1>

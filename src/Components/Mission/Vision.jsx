@@ -69,7 +69,7 @@ const Vision = () => {
               <div className="d-block d-md-none">
                 <div className="res-note">
                   <img src={vision} alt="" />
-                  <p>
+                  <p className="text-white">
                     It's about more than just taste; every meal is a deliberate step
                     toward reducing our ecological footprint and making a positive
                     impact on the planet.

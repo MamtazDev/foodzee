@@ -4,21 +4,26 @@ const Solution = () => {
   return (
     <div className="solution">
       <div className="container">
+        <div className="solution_right d-block d-lg-none text-center">
+          <h1 className="fs_60">
+            <span>The Foodzee</span> Solution
+          </h1>
+        </div>
         <div className="row align-items-start">
           <div className="col-lg-8">
             <img className="img-fluid" src={solution} alt="" />
           </div>
           <div className="col-lg-4">
-            <div className="solution_right">
-
-            <h1>
-              <span>The Foodzee</span> Solution
-            </h1>
+            <div className="solution_right d-none d-lg-block">
+              <h1>
+                <span>The Foodzee</span> Solution
+              </h1>
             </div>
           </div>
         </div>
         <div className="note">
           <div className="note_inner">
+            {/* className="fs-4" */}
             <p>
               Food waste is a significant challenge on a global scale. It not
               only has an environmental impact but also contributes to economic

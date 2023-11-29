@@ -6,10 +6,11 @@ const Difference = () => {
       <div className="diff_inner">
         <div className="container">
           <div className="row ">
-            <div className="col-lg-6 diff">
+            
+            <div className="col-lg-6 diff mb-4 mb-lg-0">
               <div className="d-flex align-items-end h-100">
                 <div>
-                  <h1>Making a Difference Together</h1>
+                  <h1 className="fs_60">Making a Difference Together</h1>
                   <p className="white_txt">
                     Our mission is to make a significant difference. Together,
                     we can reduce food waste, reduce the economic burden on
@@ -20,6 +21,7 @@ const Difference = () => {
                 </div>
               </div>
             </div>
+
             <div className="col-lg-6">
               <p className="black_txt f_inter">
                 We're excited to have you as part of our mission. With every

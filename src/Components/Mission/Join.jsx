@@ -5,7 +5,7 @@ const Join = () => {
     <div className="join">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-lg-6">
+          <div className="col-lg-6 mb-5 mb-lg-0">
             <img className="img-fluid" src={waste} alt="" />
           </div>
           <div className="col-lg-6 text-center">

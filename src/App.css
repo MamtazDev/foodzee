@@ -636,6 +636,12 @@ h1 span {
     padding-bottom: 130px;
 }
 
+@media(max-width: 768px) {
+    .our_mission {
+        padding-bottom: 80px;
+    }
+}
+
 .title_btn {
     color: var(--color-primary, #075759);
     font-size: 16px;
@@ -725,6 +731,12 @@ h1 span {
     margin-bottom: 130px;
 }
 
+@media(max-width: 768px) {
+    .vision {
+        margin-bottom: 80px;
+    }
+}
+
 .vision .vision_inner {
     background-image: url('../src/assets/vision-bg.png');
     background-repeat: no-repeat;
@@ -735,6 +747,11 @@ h1 span {
 @media(max-width: 578px) {
     .vision .vision_inner .kabab_img img {
         width: 50%;
+    }
+
+    .vision .vision_inner {
+        background-position: top;
+        padding: 60px 0 80px;
     }
 }
 
@@ -815,6 +832,7 @@ h1 span {
     .vision .note p {
         font-size: 20px;
     }
+
     .vision .res-note p {
         font-size: 20px;
     }
@@ -822,6 +840,7 @@ h1 span {
     .vision .note {
         padding: 26px;
     }
+
     .vision .res-note {
         padding: 26px;
     }
@@ -870,6 +889,12 @@ h1 span {
     padding-bottom: 130px;
 }
 
+@media(max-width: 768px) {
+    .challenge {
+        padding-bottom: 80px;
+    }
+}
+
 .challenge .challenge_header {
     max-width: 1075px;
     text-align: center;
@@ -878,7 +903,6 @@ h1 span {
 
 .challenge h1 {
     color: var(--palette-black-black-alpha-100, #000);
-    font-size: 60px;
     font-weight: 700;
     line-height: 130%;
     margin-bottom: 25px;
@@ -906,6 +930,12 @@ h1 span {
     margin-bottom: 5px;
 }
 
+@media(max-width: 768px) {
+    .challenge .title {
+        font-size: 18px;
+    }
+}
+
 .challenge .content {
     color: var(--palette-black-black-alpha-80, rgba(0, 0, 0, 0.80));
     font-size: 18px;
@@ -914,19 +944,37 @@ h1 span {
     margin-bottom: 0;
 }
 
+@media(max-width: 768px) {
+    .challenge .content {
+        font-size: 16px;
+    }
+}
+
 .solution {
     position: relative;
     padding-bottom: 180px;
     margin-bottom: 130px;
 }
 
+@media(max-width: 768px) {
+    .solution {
+        margin-bottom: 80px;
+    }
+}
+
 .solution h1 {
     color: #075759;
-    font-size: 48px;
+    /* font-size: 48px; */
     font-weight: 700;
     line-height: 130%;
     padding: 150px 0;
     padding-left: 30px;
+}
+
+@media(max-width: 768px) {
+    .solution h1 {
+        padding: 80px 0;
+    }
 }
 
 
@@ -946,6 +994,16 @@ h1 span {
     right: 13%;
 }
 
+@media(max-width: 768px) {
+    .solution .note {
+        padding: 20px 20px;
+        max-width: 450px;
+        position: absolute;
+        bottom: 0px;
+        right: 7%;
+    }
+}
+
 .solution .note_inner {
     background-image: url('assets/solution-bg2.png');
     background-repeat: no-repeat;
@@ -961,10 +1019,23 @@ h1 span {
     line-height: 160%;
 }
 
+@media(max-width: 768px) {
+    .solution p {
+        font-size: 16px;
+    }
+}
+
 .winwin {
     background: var(--color-primary, #075759);
     padding: 130px 0;
     margin-bottom: 130px;
+}
+
+@media(max-width: 768px) {
+    .winwin {
+        margin-bottom: 80px;
+        padding: 80px 0;
+    }
 }
 
 .winwin .winwin_header {
@@ -973,9 +1044,10 @@ h1 span {
     text-align: center;
 }
 
+
 .winwin .winwin_header h1 {
     color: var(--palette-white-white-alpha-100, #FFF);
-    font-size: 60px;
+    /* font-size: 60px; */
     font-weight: 700;
     line-height: 130%;
     margin-bottom: 5px;
@@ -997,14 +1069,22 @@ h1 span {
     margin-bottom: 130px;
 }
 
+@media(max-width: 768px) {
+    .economic {
+        margin-bottom: 80px;
+    }
+}
+
 .economic h1 {
     color: var(--palette-background-dark-muted-background-dark-muted-alpha-100, #252526);
-    font-size: 60px;
+    /* font-size: 60px; */
     font-weight: 700;
     line-height: 130%;
     text-align: center;
     margin-bottom: 45px;
 }
+
+
 
 .economic .economic_card {
     border-radius: 4px;
@@ -1039,6 +1119,12 @@ h1 span {
     margin-bottom: 51px;
 }
 
+@media(max-width: 768px) {
+    .env_impact h1 {
+        font-size: 24px;
+    }
+}
+
 .env_impact .green_box {
     border-radius: 7px;
     background: #DAF9E6;
@@ -1048,6 +1134,12 @@ h1 span {
     line-height: 140%;
     padding: 31px 39px;
     margin-bottom: 21px;
+}
+
+@media(max-width: 768px) {
+    .env_impact .green_box {
+        font-size: 16px;
+    }
 }
 
 .env_impact .pink_box {
@@ -1060,11 +1152,23 @@ h1 span {
     line-height: 140%;
 }
 
+@media(max-width: 768px) {
+    .env_impact .pink_box {
+        font-size: 16px;
+    }
+}
+
 .difference {
     background: linear-gradient(106deg, rgba(231, 254, 255, 0.14) -0.81%, #FFF1E3 134.34%);
     padding: 130px 0 206px;
     margin-bottom: 130px;
+}
 
+@media(max-width: 768px) {
+    .difference {
+        margin-bottom: 80px;
+        padding: 80px 0;
+    }
 }
 
 .difference .diff_inner {
@@ -1075,7 +1179,7 @@ h1 span {
 
 .difference h1 {
     color: var(--palette-white-white-alpha-100, #FFF);
-    font-size: 60px;
+    /* font-size: 60px; */
     font-weight: 700;
     line-height: 130%;
     margin-bottom: 5px;
@@ -1088,13 +1192,24 @@ h1 span {
     line-height: 140%;
 }
 
+@media(max-width: 768px) {
+    .difference .white_txt {
+        font-size: 12px;
+    }
+}
+
 .difference .black_txt {
     color: var(--palette-background-dark-muted-background-dark-muted-alpha-100, #252526);
     font-size: 18px;
     font-weight: 500;
     line-height: 160%;
     margin-bottom: 59px;
+}
 
+@media(max-width: 768px) {
+    .difference .black_txt {
+        font-size: 14px;
+    }
 }
 
 .difference .green_txt {
@@ -1104,6 +1219,12 @@ h1 span {
     line-height: 160%;
 }
 
+@media(max-width: 768px) {
+    .difference .green_txt {
+        font-size: 14px;
+    }
+}
+
 .difference .diff {
     background-image: url('../src/assets/diff.png');
     background-repeat: no-repeat;
@@ -1111,6 +1232,12 @@ h1 span {
     background-position: center;
     padding: 61px 50px;
     border-radius: 21px;
+}
+
+@media(max-width: 768px) {
+    .difference .diff {
+        padding: 20px 20px;
+    }
 }
 
 .join {
@@ -1134,6 +1261,15 @@ h1 span {
     font-weight: 700;
     line-height: 130%;
     margin-bottom: 56px;
+}
+
+@media(max-width: 768px) {
+
+    .join p,
+    .download p {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
 }
 
 .join button,
@@ -1713,8 +1849,13 @@ h1 span {
 
     .dining {
         padding-bottom: 160px;
-
     }
+
+        @media(max-width: 768px) {
+            .dining {
+                    padding-bottom: 90px;
+                }
+        }
 
     .dining h2 {
         font-size: 36px;
