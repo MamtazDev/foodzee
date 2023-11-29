@@ -46,12 +46,60 @@ p {
     padding-bottom: 40px;
 }
 
+@media(max-width: 576px) {
+    .pb_40 {
+        padding-bottom: 20px;
+    }
+}
+
+@media(max-width: 668px) {
+    .pb_40 {
+        padding-bottom: 30px;
+    }
+}
+
 .pb_60 {
     padding-bottom: 60px;
 }
 
+@media(max-width: 576px) {
+    .pb_60 {
+        padding-bottom: 30px;
+    }
+}
+
+@media(max-width: 668px) {
+    .pb_60 {
+        padding-bottom: 40px;
+    }
+}
+
+@media(max-width: 768px) {
+    .pb_60 {
+        padding-bottom: 50px;
+    }
+}
+
 .pb_64 {
     padding-bottom: 64px;
+}
+
+@media(max-width: 576px) {
+    .pb_64 {
+        padding-bottom: 26px;
+    }
+}
+
+@media(max-width: 668px) {
+    .pb_64 {
+        padding-bottom: 36px;
+    }
+}
+
+@media(max-width: 768px) {
+    .pb_64 {
+        padding-bottom: 46px;
+    }
 }
 
 .f_clr_19c2 {
@@ -90,9 +138,30 @@ p {
     font-weight: 800;
 }
 
+.fs_14 {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+@media(max-width: 668px) {
+    .fs-5 {
+        font-size: 14px !important;
+        line-height: 24px;
+        font-weight: 400 !important;
+    }
+}
+
 .fs_18 {
     font-size: 18px;
     line-height: 28px;
+}
+
+@media(max-width: 668px) {
+    .fs_18 {
+        font-size: 14px !important;
+        line-height: 24px;
+        font-weight: 400 !important;
+    }
 }
 
 .fs_30 {
@@ -100,9 +169,44 @@ p {
     line-height: 40px;
 }
 
+@media(max-width: 668px) {
+    .fs_30 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media(max-width: 768px) {
+    .fs_30 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+}
+
 .fs_48 {
     font-size: 48px;
     line-height: 58px;
+}
+
+@media(max-width: 576px) {
+    .fs_48 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media(max-width: 668px) {
+    .fs_48 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+}
+
+@media(max-width: 768px) {
+    .fs_48 {
+        font-size: 38px;
+        line-height: 48px;
+    }
 }
 
 .fs_60 {
@@ -110,9 +214,51 @@ p {
     line-height: 70px;
 }
 
+@media(max-width: 576px) {
+    .fs_60 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+}
+
+@media(max-width: 668px) {
+    .fs_60 {
+        font-size: 38px;
+        line-height: 48px;
+    }
+}
+
+@media(max-width: 768px) {
+    .fs_60 {
+        font-size: 48px;
+        line-height: 58px;
+    }
+}
+
 .fs_64 {
     font-size: 64px;
     line-height: 74px;
+}
+
+@media(max-width: 576px) {
+    .fs_64 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+}
+
+@media(max-width: 668px) {
+    .fs_64 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+}
+
+@media(max-width: 768px) {
+    .fs_64 {
+        font-size: 46px;
+        line-height: 56px;
+    }
 }
 
 .unlock_achivement_card_wrapper {
@@ -169,15 +315,23 @@ p {
     background-size: cover;
 }
 
-#partner_growth .partner_growth_wrapper {
+.partner_growth_wrapper {
     background-image: url(../src/assets/partner-growth.png);
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 21px;
 }
 
-.partner_growth_wrapper{
-    padding: 182px 0;
+.partner_growth_wrapper .partner_growth_content {
+    padding: 168px 20px;
+    text-align: center;
+    border-radius: 21px;
+    background: linear-gradient(181deg, rgba(0, 0, 0, 0.80) -17.52%, rgba(97, 97, 97, 0.12) 227.99%);
 }
+
+/* .partner_growth_wrapper {
+    padding: 182px 0;
+} */
 
 .partner_growth_btn {
     background-color: white;

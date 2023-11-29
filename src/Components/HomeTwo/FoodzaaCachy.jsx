@@ -10,7 +10,7 @@ const FoodzaaCachy = () => {
         <section id='foodzaaCachy' className='section_padding_80'>
             <div className="container">
                 <div className="row align-items-center">
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 mb-4 mb-lg-0">
                         <div className="joinFoodZee_cachy_img">
                             <img className='img-fluid' src={FoodZeeCachyImg} alt="img" />
                         </div>
