@@ -12,7 +12,7 @@ const Welcome = () => {
             <h1>
               Welcome to <span>Foodzee's</span> Press Page
             </h1>
-            <p className="mb-5">
+            <p className="mb-2 mb-lg-5">
               your gateway to staying informed about our mission, initiatives,
               and the impact we're making in the world of sustainable dining. At
               Foodzee, we're committed to transparency and keeping our community

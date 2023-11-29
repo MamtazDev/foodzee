@@ -1946,4 +1946,195 @@ h1 span {
         padding: 8px;
     }
 
+    .matters {
+        margin-bottom: 60px;
+    }
+
+    .matters .matters_card {
+        padding: 20px;
+    }
+
+    .matters h1 {
+        font-size: 30px;
+        line-height: 130%;
+        margin-bottom: 30px;
+    }
+
+    .matters .matters_card .title {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 5px;
+    }
+
+    .matters .matters_card .content {
+        font-size: 14px;
+        line-height: 160%;
+    }
+
+    .contact_form {
+        padding: 20px;
+    }
+
+    .contact_form label {
+        font-size: 16px;
+    }
+
+    .contact_form input,
+    .contact_form textarea {
+        padding: 16px 24px;
+    }
+
+    .map {
+        padding-bottom: 60px;
+    }
+
+    .welcome {
+        margin-bottom: 48px;
+    }
+
+    .welcome h1 {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 5px;
+    }
+
+    .welcome p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .welcome h6 {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+
+    .latest {
+        padding-bottom: 48px;
+    }
+
+    .latest h1 {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 12px;
+    }
+
+    .review {
+        padding: 53px 0;
+        margin-bottom: 48px;
+    }
+
+    .review h1 {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+
+    .review_card .description,
+    .review_card h6 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .review_card .description {
+        margin-bottom: 17px;
+    }
+
+    .review_card .identity {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .faq {
+        background-image: unset;
+        padding-bottom: 48px;
+    }
+
+    .faq h1 {
+        font-size: 30px;
+        line-height: 130%;
+        margin-bottom: 8px;
+    }
+
+    .faq h6 {
+        font-size: 18px;
+        line-height: 160%;
+        margin-bottom: 20px;
+    }
+
+    .faq .accordion_card {
+        padding: 27px 19px;
+    }
+
+    .faq .question {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .faq .answer {
+        font-size: 18px;
+        line-height: 160%;
+    }
+
+    .faq button {
+        border-radius: 8px;
+        background: var(--color-primary, #075759);
+        padding: 14px 30px;
+        color: var(--palette-white-white-alpha-100, #FFF);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+    .page_banner {
+        margin-bottom: 48px;
+    }
+
+    .support_contact {
+        padding: 36px 0;
+        margin-bottom: 48px;
+    }
+
+    .support_inner {
+        background-image: unset;
+    }
+
+    .faq .card_after::after {
+
+        bottom: -9px;
+        right: -9px;
+
+    }
+
+    .support_contact .support_form {
+        padding: 0;
+    }
+
+    .terms {
+        margin-bottom: 48px;
+    }
+
+    .terms .tabs {
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+
+    .terms .tabs a {
+        font-size: 12px;
+    }
+
+    .terms_option h2 {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+
+    .terms_option p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .terms .terms_option {
+        gap: 25px;
+    }
 }

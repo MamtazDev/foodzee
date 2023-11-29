@@ -40,13 +40,13 @@ const Dining = () => {
       <div className="container">
         <div className="dining_header row  align-items-center text-center">
           <div className="col-lg-2 ">
-            <img className=" d-none d-lg-block " src={flower} alt="" />
+            <img className=" d-none d-xl-block " src={flower} alt="" />
           </div>
           <div className="col-lg-8 px-5">
             <h2>
               <span>Dining Out </span>with a{" "}
-              <img className="d-block d-lg-none" src={title1} alt="" /> Purpose{" "}
-              <img className="d-block d-lg-none" src={title2} alt="" />
+              <img className="d-xl-none" src={title1} alt="" /> Purpose{" "}
+              <img className=" d-xl-none" src={title2} alt="" />
             </h2>
 
             <p>
@@ -59,7 +59,7 @@ const Dining = () => {
             </p>
           </div>
           <div className="col-lg-2 ">
-            <img className=" d-none d-lg-block" src={flower2} alt="" />
+            <img className=" d-none d-xl-block" src={flower2} alt="" />
           </div>
         </div>
 
