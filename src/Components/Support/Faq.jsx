@@ -6,32 +6,32 @@ const Faq = () => {
   const [isOpen, setIsOpen] = useState(null);
   const accoprdionData = [
     {
-      id:1,
+      id: 1,
       ques: "What is Foodzee's mission?",
       ans: "",
     },
     {
-      id:2,
+      id: 2,
       ques: "How does Foodzee help restaurants reduce food waste?",
       ans: "",
     },
     {
-      id:3,
+      id: 3,
       ques: " Why should consumers use the Foodzee app?",
       ans: "",
     },
     {
-      id:4,
+      id: 4,
       ques: "Is the Foodzee app available on both Android and iOS devices?",
       ans: "",
     },
     {
-      id:5,
+      id: 5,
       ques: "How does the website complement the Foodzee app?",
       ans: "",
     },
     {
-      id:6,
+      id: 6,
       ques: "How can restaurants and diners engage with Foodzee through the website?",
       ans: "",
     },
@@ -101,6 +101,10 @@ const Faq = () => {
             </div>
           ))}
         </div>
+
+        <button className="f_inter">
+          Still, have any questions? Contact us
+        </button>
       </div>
     </div>
   );

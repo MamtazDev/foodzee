@@ -1749,5 +1749,57 @@ h1 span {
         line-height: 16px;
     }
 
+    .faq {
+        background-image: unset;
+        padding-bottom: 48px;
+    }
 
+    .faq h1 {
+        font-size: 30px;
+        line-height: 130%;
+        margin-bottom: 8px;
+    }
+
+    .faq h6 {
+        font-size: 18px;
+        line-height: 160%;
+        margin-bottom: 20px;
+    }
+
+    .faq .accordion_card {
+        padding: 27px 19px;
+    }
+
+    .faq .question {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .faq .answer {
+        font-size: 18px;
+        line-height: 160%;
+    }
+
+    .faq button {
+        border-radius: 8px;
+        background: var(--color-primary, #075759);
+        padding: 14px 30px;
+        color: var(--palette-white-white-alpha-100, #FFF);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+    .support_contact {
+        padding: 36px 0;
+        margin-bottom: 48px;
+    }
+
+    .support_inner {
+        background-image: unset;
+    }
+
+    .support_contact .support_form {
+        padding: 0;
+    }
 }
