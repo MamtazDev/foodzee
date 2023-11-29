@@ -1650,4 +1650,46 @@ h1 span {
         padding: 8px;
     }
 
+    .matters {
+        margin-bottom: 60px;
+    }
+
+    .matters .matters_card {
+        padding: 20px;
+    }
+
+    .matters h1 {
+        font-size: 30px;
+        line-height: 130%;
+        margin-bottom: 30px;
+    }
+
+    .matters .matters_card .title {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 5px;
+    }
+
+    .matters .matters_card .content {
+        font-size: 14px;
+        line-height: 160%;
+    }
+
+    .contact_form {
+        padding: 20px;
+    }
+
+    .contact_form label {
+        font-size: 16px;
+    }
+
+    .contact_form input,
+    .contact_form textarea {
+        padding: 16px 24px;
+    }
+
+    .map {
+        padding-bottom: 60px;
+    }
+
 }

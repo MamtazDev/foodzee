@@ -28,7 +28,7 @@ const VoiceMatters = () => {
   return (
     <div className="matters">
       <div className="container">
-        <div className="row">
+        <div className="row gy-4">
           <div className="col-lg-5">
             <h1>
               Your Voice Matters at <span>Foodzee</span>{" "}
@@ -39,8 +39,8 @@ const VoiceMatters = () => {
                 <div key={index} className="matters_card">
                   <img src={data.pic} alt="" />
                   <div>
-                    <p>{data.title}</p>
-                    <p className="f_inter">{data.content}</p>
+                    <p className="title f_inter">{data.title}</p>
+                    <p className="f_inter content">{data.content}</p>
                   </div>
                 </div>
               ))}
