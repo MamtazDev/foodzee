@@ -570,10 +570,9 @@ h1 span {
 }
 
 .page_banner h1 {
-    color: var(--palette-black-black-alpha-100, #000);
-    font-size: 60px;
+    color: #000;
     font-weight: 700;
-    line-height: 130%;
+    /* line-height: 130%; */
     margin-bottom: 45px;
 }
 

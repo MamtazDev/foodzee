@@ -1,7 +1,6 @@
 import React from "react";
 import googlePlay from "../../assets/google-play.png";
 import appStore from "../../assets/appstore.png";
-import downArrow from "../../assets/down-arrow.png";
 
 
 const Banner = () => {
