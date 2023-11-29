@@ -57,20 +57,22 @@ const Quarter = () => {
         <h2>
           Over <span>Three-Quarter</span> Of All Food Is Wasted
         </h2>
-        <div className="row d-none d-md-block">
-          {list.map((data, index) => (
-            <div className="col-12 col-md-6 col-lg-4" key={index}>
-              <div className="quarter_card d-flex align-items-center flex-column h-100">
-                <img className="default" src={data.pic} alt="" />
-                <img className="hov" src={data.picHov} alt="" />
+        <div className="d-none d-md-block">
+          <div className="row ">
+            {list.map((data, index) => (
+              <div className=" col-md-6 col-lg-4" key={index}>
+                <div className="quarter_card d-flex align-items-center flex-column h-100">
+                  <img className="default" src={data.pic} alt="" />
+                  <img className="hov" src={data.picHov} alt="" />
 
-                <div className="flex-grow-1">
-                  <h3>{data.title}</h3>
-                  <p>{data.subtitle}</p>
+                  <div className="flex-grow-1">
+                    <h3>{data.title}</h3>
+                    <p>{data.subtitle}</p>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
         <div className="d-block d-md-none">
           <Carousel

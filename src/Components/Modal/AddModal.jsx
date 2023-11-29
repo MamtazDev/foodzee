@@ -56,9 +56,14 @@ const AddModal = ({ modalRef }) => {
                   </div>
                 </div>
                 <div className="col-lg-5 download_sec text-end p-0">
-                  <button data-bs-dismiss="modal" className="d-none d-lg-block">
-                    <img className="p-2" src={close} alt="" />
-                  </button>
+                  <div className="d-flex justify-content-end w-100 ">
+                    <button
+                      data-bs-dismiss="modal"
+                      className="d-none d-lg-block"
+                    >
+                      <img className="p-2" src={close} alt="" />
+                    </button>
+                  </div>
 
                   <img className="img-fluid" src={download} alt="" />
                 </div>
