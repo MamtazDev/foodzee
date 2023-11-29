@@ -592,6 +592,25 @@ h1 span {
     text-transform: capitalize;
 }
 
+.react-multi-carousel-dot-list {
+    bottom: 12px;
+}
+
+.react-multi-carousel-dot button {
+    background: rgba(255, 189, 0, 0.47);
+    width: 5px !important;
+    height: 4px !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.react-multi-carousel-dot--active button {
+    background: var(--color-primary, #075759) !important;
+    width: 19px !important;
+    height: 4px !important;
+    border: none !important;
+}
+
 .our_mission {
     background-image: url('../src/assets/green-paper.png'), url('../src/assets/tomato.png');
     background-repeat: no-repeat;
