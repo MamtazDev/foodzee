@@ -569,6 +569,19 @@ h1 span {
     background-position: bottom center;
 }
 
+@media(max-width: 992px) {
+    .page_banner {
+        margin-bottom: 85px;
+    }
+}
+
+@media(max-width: 768px) {
+    .page_banner {
+        margin-bottom: 40px;
+    }
+}
+
+
 .page_banner .page_ornaments_one {
     top: -25px;
     right: 0;
@@ -613,12 +626,39 @@ h1 span {
     margin-bottom: 25px;
 }
 
+@media(max-width: 576px) {
+    .title_btn {
+        font-size: 12px;
+        padding: 14px 10px;
+    }
+}
+
 .our_mission h1 {
-    color: var(--palette-black-black-alpha-100, #000);
+    color: #000;
     font-size: 48px;
     font-weight: 800;
     line-height: 130%;
     margin-bottom: 25px;
+}
+
+@media(max-width: 992px) {
+    .our_mission h1 {
+        font-size: 38px;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 768px) {
+    .our_mission h1 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+}
+
+@media(max-width: 576px) {
+    .our_mission h1 {
+        font-size: 25px;
+    }
 }
 
 .our_mission p {
@@ -627,6 +667,24 @@ h1 span {
     font-weight: 500;
     line-height: 24px;
     margin-bottom: 45px;
+}
+
+@media(max-width: 992px) {
+    .our_mission p {
+        margin-bottom: 35px;
+    }
+}
+
+@media(max-width: 768px) {
+    .our_mission p {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 576px) {
+    .our_mission p {
+        margin-bottom: 25px;
+    }
 }
 
 .our_mission button {
@@ -653,12 +711,36 @@ h1 span {
     padding: 125px 0 115px;
 }
 
+@media(max-width: 578px) {
+    .vision .vision_inner .kabab_img img {
+        width: 50%;
+    }
+}
+
 .vision h1 {
     color: var(--palette-black-black-alpha-100, #000);
     font-size: 48px;
     font-weight: 800;
     line-height: 130%;
     margin-bottom: 25px;
+}
+
+@media(max-width: 992px) {
+    .vision h1 {
+        font-size: 38px;
+    }
+}
+
+@media(max-width: 768px) {
+    .vision h1 {
+        font-size: 28px;
+    }
+}
+
+@media(max-width: 576px) {
+    .vision h1 {
+        font-size: 24px;
+    }
 }
 
 .vision p {
@@ -680,11 +762,84 @@ h1 span {
     right: 13%;
 }
 
+.vision .res-note {
+    background: var(--color-primary, #075759);
+    padding: 36px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    max-width: 813px;
+    /* position: absolute; */
+    /* bottom: 73px; */
+    /* right: 13%; */
+}
+
+
+
+.vision .res-notee p {
+    color: #FFF !important;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
 .vision .note p {
     color: var(--palette-white-white-alpha-100, #FFF);
     font-size: 24px;
     font-weight: 500;
     line-height: 150%;
+}
+
+@media(max-width: 992px) {
+    .vision .note p {
+        font-size: 20px;
+    }
+    .vision .res-note p {
+        font-size: 20px;
+    }
+
+    .vision .note {
+        padding: 26px;
+    }
+    .vision .res-note {
+        padding: 26px;
+    }
+}
+
+@media(max-width: 768px) {
+    .vision .note p {
+        font-size: 16px;
+    }
+
+    .vision .note {
+        padding: 16px;
+    }
+
+    .vision .res-note p {
+        font-size: 16px;
+    }
+
+    .vision .res-note {
+        padding: 16px;
+    }
+}
+
+@media(max-width: 568px) {
+    .vision .note p {
+        font-size: 14px;
+    }
+
+    .vision .note {
+        padding: 14px;
+    }
+
+    .vision .res-note p {
+        font-size: 14px;
+    }
+
+    .vision .res-note {
+        padding: 14px;
+    }
 }
 
 .challenge {
