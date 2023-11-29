@@ -5,6 +5,8 @@ import dining from "../../assets/dining.png";
 import affordability from "../../assets/affordability.png";
 import friendly from "../../assets/budgetfriendly.png";
 import discounted from "../../assets/discount.png";
+import title1 from "../../assets/dining-title1.png";
+import title2 from "../../assets/dining-title2.png";
 
 const Dining = () => {
   const list = [
@@ -36,14 +38,16 @@ const Dining = () => {
   return (
     <div className="dining">
       <div className="container">
-        <div className="dining_header row align-items-center text-center">
+        <div className="dining_header row  align-items-center text-center">
           <div className="col-lg-2 ">
-            <img src={flower} alt="" />
+            <img className=" d-none d-lg-block " src={flower} alt="" />
           </div>
           <div className="col-lg-8 px-5">
             <h2>
-              <span>Dining Out </span>with a Purpose
+              <span>Dining Out </span>with a <img src={title1} alt="" /> Purpose{" "}
+              <img src={title2} alt="" />
             </h2>
+
             <p>
               For diners, Foodzee is your gateway to dining out with a purpose.
               We recognize that affordability is crucial, especially during
@@ -53,13 +57,13 @@ const Dining = () => {
               meaningful initiative to reduce food waste.
             </p>
           </div>
-          <div className="col-lg-2">
-            <img src={flower2} alt="" />
+          <div className="col-lg-2 ">
+            <img className=" d-none d-lg-block" src={flower2} alt="" />
           </div>
         </div>
 
         <div className="row">
-          <div className="col-lg-4">
+          <div className="col-lg-4 order-2 order-lg-1 mb-4 mb-lg-0">
             <div className="d-flex align-items-center flex-column gap-4">
               {list.slice(0, 2).map((data, index) => (
                 <div key={index} className="dining_card">
@@ -70,10 +74,10 @@ const Dining = () => {
               ))}
             </div>
           </div>
-          <div className="col-lg-4">
-            <img className="img-fluid" src={dining} alt="" />
+          <div className="col-lg-4 order-1 order-lg-2">
+            <img className="img-fluid mb-4 mb-lg-0" src={dining} alt="" />
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4 order-3 order-lg-3">
             <div className="d-flex align-items-center flex-column gap-4">
               {list.slice(2, 4).map((data, index) => (
                 <div key={index} className="dining_card">

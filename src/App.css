@@ -453,6 +453,7 @@ h1 span {
 
 .opportunity {
     margin-bottom: 130px;
+
 }
 
 .opportunity .container {
@@ -461,6 +462,7 @@ h1 span {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 21px;
 }
 
 .opportunity .inner {
@@ -1519,7 +1521,8 @@ h1 span {
         background-color: transparent;
     }
 
-    .sustainability button {
+    .sustainability button,
+    .impact button {
         font-size: 16px;
         line-height: 24px;
         padding: 8px;
@@ -1540,4 +1543,92 @@ h1 span {
         line-height: 20px;
         margin-bottom: 17px;
     }
+
+    #special_btn {
+        border-radius: 8px;
+        border: 1px solid var(--palette-background-dark-muted-background-dark-muted-alpha-100, #252526);
+        color: var(--palette-black-black-alpha-90, #252526);
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 28px;
+        text-transform: capitalize;
+        padding: 5px 14px;
+        background-color: transparent;
+    }
+
+    .dining {
+        padding-bottom: 160px;
+
+    }
+
+    .dining h2 {
+        font-size: 36px;
+    }
+
+    .dining p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .dining_card h6 {
+        font-size: 20px;
+    }
+
+    .discover {
+        padding-top: 25px;
+        margin-bottom: 0;
+        margin: 0 15px;
+    }
+
+    .discover h1 {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 18px;
+    }
+
+    .discover p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .discover button {
+        font-size: 18px;
+        line-height: 28px;
+        padding: 10px 24px;
+        margin-bottom: 50px;
+    }
+
+    .opportunity {
+        margin: -10px 15px 48px 15px !important;
+        position: relative;
+        z-index: 9999;
+    }
+
+    .opportunity .container {
+        height: auto;
+        padding: 55px 37px;
+    }
+
+    .opportunity h1 {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 16px;
+    }
+
+    .opportunity p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .opportunity button {
+        border-radius: 8px;
+        background: var(--palette-white-white-alpha-100, #FFF);
+        color: var(--color-primary, #075759);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        padding: 10px 32px;
+        margin-top: 30px;
+    }
+
 }

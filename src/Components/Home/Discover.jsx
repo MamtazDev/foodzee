@@ -16,7 +16,13 @@ const Discover = () => {
           time-bound promotions, allowing you to enjoy fantastic meals while
           reducing food waste. It's a win-win for you and the planet.
         </p>
-        <button className="f_inter">Explore Foodzee Now</button>
+        <div className="d-flex justify-content-center">
+          <button className="f_inter d-none d-lg-block">
+            {" "}
+            Explore Foodzee Now
+          </button>
+          <button className="f_inter d-block d-lg-none"> Download Now</button>
+        </div>
         <img className="img-fluid" src={discover} alt="" />
       </div>
     </div>
