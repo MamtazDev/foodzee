@@ -44,8 +44,9 @@ const Dining = () => {
           </div>
           <div className="col-lg-8 px-5">
             <h2>
-              <span>Dining Out </span>with a <img src={title1} alt="" /> Purpose{" "}
-              <img src={title2} alt="" />
+              <span>Dining Out </span>with a{" "}
+              <img className="d-block d-lg-none" src={title1} alt="" /> Purpose{" "}
+              <img className="d-block d-lg-none" src={title2} alt="" />
             </h2>
 
             <p>
