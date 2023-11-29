@@ -214,10 +214,10 @@ p {
     line-height: 70px;
 }
 
-@media(max-width: 576px) {
+@media(max-width: 768px) {
     .fs_60 {
-        font-size: 28px;
-        line-height: 38px;
+        font-size: 48px;
+        line-height: 58px;
     }
 }
 
@@ -228,12 +228,16 @@ p {
     }
 }
 
-@media(max-width: 768px) {
+@media(max-width: 576px) {
     .fs_60 {
-        font-size: 48px;
-        line-height: 58px;
+        font-size: 28px;
+        line-height: 38px;
     }
 }
+
+
+
+
 
 .fs_64 {
     font-size: 64px;
@@ -258,6 +262,28 @@ p {
     .fs_64 {
         font-size: 46px;
         line-height: 56px;
+    }
+}
+
+.mb_45 {
+    margin-bottom: 45px;
+}
+
+@media(max-width: 768px) {
+    .mb_45 {
+        margin-bottom: 35px;
+    }
+}
+
+@media(max-width: 668px) {
+    .mb_45 {
+        margin-bottom: 25px;
+    }
+}
+
+@media(max-width: 576px) {
+    .mb_45 {
+        margin-bottom: 20px;
     }
 }
 
