@@ -13,6 +13,7 @@ const Opportunity = () => {
             Foodzee, you become a part of something more significant, something
             that aims to create a positive impact.
           </p>
+          <button>Learn More</button>
         </div>
       </div>
     </div>

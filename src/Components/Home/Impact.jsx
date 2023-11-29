@@ -24,7 +24,9 @@ const Impact = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
-            <h2><span>Maximizing</span>  Impact and Revenue</h2>
+            <h2>
+              <span>Maximizing</span> Impact and Revenue
+            </h2>
             <p className="f_inter">
               For restaurant owners, Foodzee provides a platform to maximize the
               utilization of surplus food. We understand that food waste is not
@@ -41,7 +43,13 @@ const Impact = () => {
                 </div>
               ))}
             </div>
-            <button>Reserve Your Meal Now!</button>
+            <button className="d-none d-lg-block">
+              Reserve Your Meal Now!
+            </button>
+            <div className="d-flex gap-2 align-items-center d-lg-none mb-5">
+              <button>Download the App</button>
+              <button id="special_btn">Learn more</button>
+            </div>
           </div>
           <div className="col-lg-6">
             <img className="img-fluid" src={impact} alt="" />

@@ -56,7 +56,15 @@ const Sustainability = () => {
               ))}
             </div>
 
-            <button className="f_inter">Download Foodzee Now!</button>
+            <button className="f_inter d-none d-lg-block">
+              Download Foodzee Now!
+            </button>
+            <div className="d-flex gap-2 align-items-center d-block d-lg-none mb-5">
+              <button className="f_inter">Register your business</button>
+              <button className="f_inter" id="learn_btn">
+                Learn more
+              </button>
+            </div>
           </div>
           <div className="col-lg-6 order-lg-1 ">
             <img className="img-fluid" src={sustainability} alt="" />
