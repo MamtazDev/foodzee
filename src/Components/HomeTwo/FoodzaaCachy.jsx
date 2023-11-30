@@ -21,7 +21,7 @@ const FoodzaaCachy = () => {
 
                             <div className="joinFoodZee_cachy_title pb_25">
                                 <h2 className='fs_48 fw_extrabold text-black'>
-                                    <span className='f_clr_00'>Cachy?</span> Slogans
+                                    The <span className='f_clr_00'>Foodzee</span> Way
                                 </h2>
                             </div>
 

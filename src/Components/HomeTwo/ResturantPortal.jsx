@@ -1,5 +1,6 @@
 import React from 'react'
 import resturantPortalImg from '../../assets/laptop-img-resturantportal.png'
+import { Link } from 'react-router-dom';
 
 const ResturantPortal = () => {
     return (
@@ -57,7 +58,9 @@ const ResturantPortal = () => {
                                 </p>
 
                                 <button className='partner_growth_btn'>
-                                    Create account
+                                    <Link style={{ color: "#075759" }} to={"https://appfzeitappdevuw02.azurewebsites.net/Auth/Register/Cover"} className='text-decoration-none' target='_blank'>
+                                        Create account
+                                    </Link>
                                 </button>
                             </div>
                         </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import FoodZeeRightImg from '../../assets/join_foodze3.png'
+import { Link } from 'react-router-dom'
 
 
 const JoinFoodzee = () => {
@@ -21,7 +22,9 @@ const JoinFoodzee = () => {
                             </div>
                             <div className="joinFoodZee_content_btn">
                                 <button className="download_btn f_inter">
-                                    Create account
+                                    <Link style={{ color: "white" }} to={"https://appfzeitappdevuw02.azurewebsites.net/Auth/Register/Cover"} className='text-decoration-none' target='_blank'>
+                                        Create account
+                                    </Link>
                                 </button>
                             </div>
                         </div>

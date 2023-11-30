@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const PartnerGrowth = () => {
     return (
@@ -16,7 +17,9 @@ const PartnerGrowth = () => {
                         </p>
 
                         <button className='partner_growth_btn'>
-                            Create account
+                            <Link style={{ color: "#075759" }} to={"https://appfzeitappdevuw02.azurewebsites.net/Auth/Register/Cover"} className='text-decoration-none' target='_blank'>
+                                Create account
+                            </Link>
                         </button>
                     </div>
                 </div>

@@ -3,6 +3,7 @@ import sustainability from "../../assets/sustainability.png";
 import harmony from "../../assets/harmony.png";
 import economic from "../../assets/economic.png";
 import reduce from "../../assets/reduce.png";
+import { Link } from "react-router-dom";
 
 const Sustainability = () => {
   const list = [
@@ -57,7 +58,9 @@ const Sustainability = () => {
             </div>
 
             <button className="f_inter d-none d-lg-block">
-              Download Foodzee Now!
+              <Link style={{ color: '#075759'}} className="text-decoration-none" to={"https://onelink.to/r8ddne"}>
+                Download Foodzee Now!
+              </Link>
             </button>
             <div className="d-flex gap-2 align-items-center d-block d-lg-none mb-5">
               <button className="f_inter">Register your business</button>

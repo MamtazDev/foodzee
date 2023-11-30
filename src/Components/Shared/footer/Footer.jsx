@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../../../assets/logo.png'
 import { Link } from 'react-router-dom'
-import { FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaTwitter } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -19,29 +19,37 @@ const Footer = () => {
                                 <div className="footer_logo mb-4">
                                     <img className='img-fluid' src={logo} alt="" />
                                 </div>
-                                <div className="footer_left_content mb-4">
-                                    <p className='f_inter f_clr_19c2 fw-normal fs_18'>
+                                <div className="footer_left_content">
+                                    <p className='f_inter f_clr_19c2 fw-normal fs_18 mb-2'>
                                         Our website is more than just a digital presence. It's an invitation, an opportunity, and a resource for everyone who believes in the power of sustainable dining. We are excited to have you here, and we encourage you to explore, learn, and take action.
                                     </p>
+
+                                    <Link to={"telto:08000582673"} className='f_inter f_clr_19c2 fw-normal fs_18 text-decoration-none'>
+                                        <p className='f_inter f_clr_19c2 fw-normal fs_18 mb-2'>
+                                            0800 058 2673
+                                        </p>
+                                    </Link>
+
                                     <Link to={"mailto:hello@foodzee.co.uk"} className='f_inter f_clr_19c2 fw-normal fs_18 text-decoration-underline'>
                                         hello@foodzee.co.uk
                                     </Link>
+
+                                    <p className='f_inter f_clr_19c2 fw-normal fs_18 my-2'>
+                                        Foodzee, Floor 2, Falcon Point, Heath Hayes, <br /> Cannock, WS12 2DE
+                                    </p>
+
                                 </div>
                                 <div className="footer_left_socialMedia d-flex justify-content-center justify-content-md-start">
-                                    <Link to={"#"} className='footer_link fs_18'>
-                                        <FaTwitter />
+                                    <Link to={"https://linkedin.com/company/foodzeeuk"} className='footer_link fs_18' target='_blank'>
+                                        <FaLinkedin />
                                     </Link>
 
-                                    <Link to={"#"} className='footer_link fs_18'>
+                                    <Link to={"https://www.facebook.com/FoodzeeUK/"} className='footer_link fs_18' target='_blank'>
                                         <FaFacebookF />
                                     </Link>
 
-                                    <Link to={"#"} className='footer_link fs_18'>
+                                    <Link to={"https://www.instagram.com/foodzeeuk"} className='footer_link fs_18' target='_blank'>
                                         <FaInstagram />
-                                    </Link>
-
-                                    <Link to={"#"} className='footer_link fs_18'>
-                                        <FaGithub />
                                     </Link>
                                 </div>
                             </div>

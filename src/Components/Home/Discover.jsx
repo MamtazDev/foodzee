@@ -1,5 +1,6 @@
 import React from "react";
 import discover from "../../assets/discover.png";
+import { Link } from "react-router-dom";
 
 const Discover = () => {
   return (
@@ -18,8 +19,9 @@ const Discover = () => {
         </p>
         <div className="d-flex justify-content-center">
           <button className="f_inter d-none d-lg-block">
-            {" "}
-            Explore Foodzee Now
+            <Link style={{ color: 'white' }} className="text-decoration-none" to={"https://onelink.to/r8ddne"}>
+              Explore Foodzee Now
+            </Link>
           </button>
           <button className="f_inter d-block d-lg-none"> Download Now</button>
         </div>

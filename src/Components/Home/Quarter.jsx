@@ -55,7 +55,7 @@ const Quarter = () => {
     <div className="quarter">
       <div className="container">
         <h2>
-          Over <span>Three-Quarter</span> Of All Food Is Wasted
+          Around <span>1 Million Tonnes</span> Of Food Waste Annually
         </h2>
         <div className="d-none d-md-block">
           <div className="row gy-4">

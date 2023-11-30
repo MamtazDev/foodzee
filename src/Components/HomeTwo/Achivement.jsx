@@ -8,7 +8,12 @@ const Achivement = () => {
     return (
         <section id='achivement' className='bg_clr section_padding'>
             <div className="container">
-                <div className="row">
+
+                <h2 className='fs_48 fw-bold text-white text-center'>
+                    Join the Foodzee Revolution: Reducing <br /> Food Waste, Enhancing Dining, and <br /> Embracing Affordability
+                </h2>
+
+                {/* <div className="row">
                     <div className="col-lg-4">
                         <div className="achivement_card_wrapper mb-5 mb-lg-0">
 
@@ -76,7 +81,7 @@ const Achivement = () => {
                         </div>
                     </div>
 
-                </div>
+                </div> */}
             </div>
         </section>
     )

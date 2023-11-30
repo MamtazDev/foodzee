@@ -3,6 +3,7 @@ import impact from "../../assets/impact.png";
 import hand from "../../assets/hand.png";
 import save from "../../assets/save.png";
 import avoid from "../../assets/avoid.png";
+import { Link } from "react-router-dom";
 
 const Impact = () => {
   const list = [
@@ -44,7 +45,9 @@ const Impact = () => {
               ))}
             </div>
             <button className="d-none d-lg-block">
-              Reserve Your Meal Now!
+              <Link style={{ color: 'white' }} className="text-decoration-none" to={"https://onelink.to/r8ddne"}>
+                Reserve Your Meal Now!
+              </Link>
             </button>
             <div className="d-flex gap-2 align-items-center d-lg-none mb-5">
               <button>Download the App</button>
