@@ -8,24 +8,22 @@ import Discover from "../Components/Home/Discover";
 import Opportunity from "../Components/Home/Opportunity";
 import AddModal from "../Components/Modal/AddModal";
 import { MyContext } from "../MyContext";
-import HomeTwo from './HomeTwo';
+import HomeTwo from "./HomeTwo";
+import Achivement from "../Components/HomeTwo/Achivement";
+import UnlockAchivement from "../Components/HomeTwo/UnlockAchivement";
+import WhyChoose from "../Components/HomeTwo/WhyChoose";
+import JoinFoodzee from "../Components/HomeTwo/JoinFoodzee";
+import FoodzaaCachy from "../Components/HomeTwo/FoodzaaCachy";
+import ResturantPortal from "../Components/HomeTwo/ResturantPortal";
+import PartnerGrowth from "../Components/HomeTwo/PartnerGrowth";
 
 const Home = () => {
-  const modalRef = useRef();
-  const { activeButton } = useContext(MyContext)
-  useEffect(() => {
-    const timeoutId = setTimeout(() => {
-      if (modalRef.current) {
-        modalRef.current.click();
-      }
-    }, 1000);
-    return () => clearTimeout(timeoutId);
-  }, [modalRef]);
+  const { activeButton, modalRef } = useContext(MyContext);
 
   return (
     <>
-      {
-        activeButton === 'customer' && <>
+      {activeButton === "customer" && (
+        <>
           <AddModal modalRef={modalRef} />
           <Banner />
           <Quarter />
@@ -35,12 +33,21 @@ const Home = () => {
           <Discover />
           <Opportunity />
         </>
-      }
+      )}
 
-      {
-        activeButton === 'restaurant' && <HomeTwo />
-      }
-
+      {activeButton === "restaurant" && (
+        <>
+          <AddModal modalRef={modalRef} />
+          <Banner />
+          <Achivement />
+          <UnlockAchivement />
+          <WhyChoose />
+          <JoinFoodzee />
+          <FoodzaaCachy />
+          <ResturantPortal />
+          <PartnerGrowth />
+        </>
+      )}
     </>
   );
 };
