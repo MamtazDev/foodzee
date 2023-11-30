@@ -27,7 +27,7 @@ const AddModal = ({ modalRef }) => {
       >
         <div className="modal-dialog modal-dialog-centered modal-xl">
           <div className="modal-content">
-            <div className="modal-body">
+            <div className="modal-body p-0">
               <div className="row m-0">
                 <div className="col-lg-7  p-3 pt-lg-5 pb-lg-1 ps-lg-5">
                   <button
