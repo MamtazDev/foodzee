@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
 import googlePlay from "../../assets/google-play.png";
 import appStore from "../../assets/appstore.png";
 import qr from "../../assets/qr.png";
+import Cqr from "../../assets/customer-qr.png";
+import Rqr from "../../assets/resturant-qr.png";
 import download from "../../assets/download.png";
 import close from "../../assets/close-modal.png";
+import { MyContext } from "../../MyContext";
 
 const AddModal = ({ modalRef }) => {
+  const { activeButton } = useContext(MyContext);
   return (
     <div className="add_modal">
       <button
@@ -48,7 +52,11 @@ const AddModal = ({ modalRef }) => {
                     way you dine.
                   </p>
                   <div className="d-flex  align-items-center gap-4">
-                    <img className="img-fluid" src={qr} alt="" />
+                    <img
+                      className="img-fluid"
+                      src={activeButton === "customer" ? Cqr : Rqr}
+                      alt=""
+                    />
                     <div className="d-flex flex-column gap-2 align-items-center">
                       <img className="img-fluid" src={googlePlay} alt="" />
                       <img className="img-fluid" src={appStore} alt="" />
