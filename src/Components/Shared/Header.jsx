@@ -83,7 +83,7 @@ const Header = () => {
                 Press
               </NavLink>
             </li> */}
-{/* 
+{/*
             <li className="nav-item">
               <NavLink
                 className={({ isActive }) =>
@@ -97,14 +97,14 @@ const Header = () => {
           </ul>
 
           <div
-            className="d-flex flex-column flex-lg-row align-items-start align-items-lg-center gap-4"
+            className="d-flex flex-column flex-lg-row align-items-start align-items-lg-center gap-4 mt-4 mt-lg-0"
             role="search"
           >
             <NavLink
               className={({ isActive }) =>
                 isActive ? "nav-link active" : "nav-link"
               }
-              to={PDFDwonlaod} download="MyExampleDoc" target='_blank'
+              to={"https://onelink.to/r8ddne"} target='_blank'
             >
               Download Now
             </NavLink>

@@ -67,6 +67,7 @@ const Faq = () => {
                   reducing food waste through time-bound promotions on excess
                   food and to provide consumers with cost-effective dining
                   options, particularly during economic downturns.
+                  
                 </p>
               )}
             </div>

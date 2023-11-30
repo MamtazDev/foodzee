@@ -90,7 +90,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-3">
+                        {/* <div className="col-lg-3">
                             <div className='d-lg-flex justify-content-center mb-4 mb-lg-0 text-center text-md-start'>
                                 <div className="footer_nav">
                                     <div className="nav_title">
@@ -160,7 +160,7 @@ const Footer = () => {
                                     </ul>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <p className='copyright fs-6 f_inter fw-normal f_clr_19c2 text-center py-3'>
