@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/logo.png";
-import { useContext, useState } from "react";
+import { useContext } from "react";
+import PDFDwonlaod from "../../assets/foodzee.pdf"
 import { MyContext } from "../../MyContext";
 
 const Header = () => {
@@ -103,23 +104,23 @@ const Header = () => {
               className={({ isActive }) =>
                 isActive ? "nav-link active" : "nav-link"
               }
-              to="#"
+              to={PDFDwonlaod} download="MyExampleDoc" target='_blank'
             >
               Download Now
             </NavLink>
             <div className="user_tab">
               <button
-                className={activeButton === "User" ? "active" : ""}
-                onClick={() => handleButtonClick("User")}
+                className={activeButton === "customer" ? "active" : ""}
+                onClick={() => handleButtonClick("customer")}
               >
-                User
+                Customer
               </button>
 
               <button
-                className={activeButton === "Business" ? "active" : ""}
-                onClick={() => handleButtonClick("Business")}
+                className={activeButton === "restaurant" ? "active" : ""}
+                onClick={() => handleButtonClick("restaurant")}
               >
-                Business
+                Restaurant
               </button>
             </div>
           </div>

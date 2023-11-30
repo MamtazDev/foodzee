@@ -7,6 +7,7 @@ import JoinFoodzee from '../Components/HomeTwo/JoinFoodzee'
 import FoodzaaCachy from '../Components/HomeTwo/FoodzaaCachy'
 import ResturantPortal from '../Components/HomeTwo/ResturantPortal'
 import PartnerGrowth from '../Components/HomeTwo/PartnerGrowth'
+import AddModal from '../Components/Modal/AddModal'
 
 const HomeTwo = () => {
     return (

@@ -25,7 +25,7 @@ const Home = () => {
   return (
     <>
       {
-        activeButton === 'User' && <>
+        activeButton === 'customer' && <>
           <AddModal modalRef={modalRef} />
           <Banner />
           <Quarter />
@@ -38,7 +38,7 @@ const Home = () => {
       }
 
       {
-        activeButton === 'Business' && <HomeTwo />
+        activeButton === 'restaurant' && <HomeTwo />
       }
 
     </>

@@ -1,13 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
 import googlePlay from "../../assets/google-play.png";
 import appStore from "../../assets/appstore.png";
 import PDFDwonlaod from "../../assets/foodzee.pdf"
 import { Link } from "react-router-dom";
-
+import { MyContext } from "../../MyContext";
 
 const Banner = () => {
+  const { activeButton } = useContext(MyContext)
   return (
-    <div className="banner">
+    <div className={activeButton === 'customer' ? "banner" : "banner2"}>
       <div className="container">
         <h1>
           <span>Thrifty Bites</span> , Zero Waste Foodzee Deals
@@ -20,7 +21,6 @@ const Banner = () => {
           <Link className="text-decoration-none text-white" to={PDFDwonlaod} download="MyExampleDoc" target='_blank'>
             Download Now!
           </Link>
-
         </button>
         <div className="d-flex  align-items-start  gap-2">
           <button className="p-0">

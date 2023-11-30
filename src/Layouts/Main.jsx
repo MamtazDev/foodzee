@@ -6,7 +6,7 @@ import JoinPower from "../Components/Shared/JoinPower";
 import { MyContext } from "../MyContext";
 
 const Main = () => {
-  const [activeButton, setActiveButton] = useState('User');
+  const [activeButton, setActiveButton] = useState('customer');
   const handleButtonClick = (buttonType) => {
     setActiveButton(buttonType);
   };

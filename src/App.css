@@ -81,6 +81,15 @@ h1 span {
 /* ==== banner css ====== */
 
 .banner {
+    background-image: url('../src/assets/hero-new-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 159px;
+    padding-bottom: 35px;
+}
+
+.banner2 {
     background-image: url('../src/assets/banner-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -99,6 +108,23 @@ h1 span {
 }
 
 .banner p {
+    color: var(--palette-black-black-alpha-100, #000);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+    max-width: 638px;
+    margin-bottom: 50px;
+}
+.banner2 h1 {
+    color: var(--color-primary, #075759);
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 130%;
+    max-width: 751px;
+    margin-bottom: 17px;
+}
+
+.banner2 p {
     color: var(--palette-black-black-alpha-100, #000);
     font-size: 24px;
     font-weight: 500;
@@ -1706,6 +1732,14 @@ h1 span {
         background-position: center;
         position: relative;
     }
+    .banner2 {
+        padding-top: 48px;
+        padding-bottom: 402px;
+        background-image: url('assets/banner2-sm-bg.png');
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
 
     .banner h1 {
         font-size: 40px;
@@ -1714,6 +1748,18 @@ h1 span {
     }
 
     .banner p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+
+    .banner2 h1 {
+        font-size: 40px;
+        margin-bottom: 14px;
+        line-height: 48px
+    }
+
+    .banner2 p {
         font-size: 16px;
         line-height: 24px;
         margin-bottom: 20px;
@@ -1851,11 +1897,11 @@ h1 span {
         padding-bottom: 160px;
     }
 
-        @media(max-width: 768px) {
-            .dining {
-                    padding-bottom: 90px;
-                }
+    @media(max-width: 768px) {
+        .dining {
+            padding-bottom: 90px;
         }
+    }
 
     .dining h2 {
         font-size: 36px;
