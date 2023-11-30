@@ -24,19 +24,21 @@ const Footer = () => {
                                         Our website is more than just a digital presence. It's an invitation, an opportunity, and a resource for everyone who believes in the power of sustainable dining. We are excited to have you here, and we encourage you to explore, learn, and take action.
                                     </p>
 
-                                    <Link to={"telto:08000582673"} className='f_inter f_clr_19c2 fw-normal fs_18 text-decoration-none'>
+                                    {/* <Link to={"telto:08000582673"} className='f_inter f_clr_19c2 fw-normal fs_18 text-decoration-none'>
                                         <p className='f_inter f_clr_19c2 fw-normal fs_18 mb-2'>
                                             0800 058 2673
                                         </p>
-                                    </Link>
+                                    </Link> */}
 
                                     <Link to={"mailto:hello@foodzee.co.uk"} className='f_inter f_clr_19c2 fw-normal fs_18 text-decoration-underline'>
-                                        hello@foodzee.co.uk
+                                        <p className='mb-3'>
+                                            hello@foodzee.co.uk
+                                        </p>
                                     </Link>
 
-                                    <p className='f_inter f_clr_19c2 fw-normal fs_18 my-2'>
+                                    {/* <p className='f_inter f_clr_19c2 fw-normal fs_18 my-2'>
                                         Foodzee, Floor 2, Falcon Point, Heath Hayes, <br /> Cannock, WS12 2DE
-                                    </p>
+                                    </p> */}
 
                                 </div>
                                 <div className="footer_left_socialMedia d-flex justify-content-center justify-content-md-start">
@@ -68,23 +70,18 @@ const Footer = () => {
                                         </Link>
                                     </li>
                                     <li className='nav_item'>
-                                        <Link to={"/about-us"} className='fs_18 fw-normal f_inter f_clr_19c2 text-decoration-none'>
-                                            About Us
+                                        <Link to={"/mission"} className='fs_18 fw-normal f_inter f_clr_19c2 text-decoration-none'>
+                                           Our Mission
                                         </Link>
                                     </li>
                                     <li className='nav_item'>
-                                        <Link to={"/service"} className='fs_18 fw-normal f_inter f_clr_19c2 text-decoration-none'>
-                                            Services
-                                        </Link>
-                                    </li>
-                                    <li className='nav_item'>
-                                        <Link to={"/pages"} className='fs_18 fw-normal f_inter f_clr_19c2 text-decoration-none'>
-                                            Pages
+                                        <Link to={"/support"} className='fs_18 fw-normal f_inter f_clr_19c2 text-decoration-none'>
+                                            Support
                                         </Link>
                                     </li>
                                     <li className='nav_item'>
                                         <Link to={"/contact"} className='fs_18 fw-normal f_inter f_clr_19c2 text-decoration-none'>
-                                            Contact
+                                            Contact Us
                                         </Link>
                                     </li>
                                 </ul>
