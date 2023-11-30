@@ -8,7 +8,6 @@ import Discover from "../Components/Home/Discover";
 import Opportunity from "../Components/Home/Opportunity";
 import AddModal from "../Components/Modal/AddModal";
 import { MyContext } from "../MyContext";
-import HomeTwo from "./HomeTwo";
 import Achivement from "../Components/HomeTwo/Achivement";
 import UnlockAchivement from "../Components/HomeTwo/UnlockAchivement";
 import WhyChoose from "../Components/HomeTwo/WhyChoose";
@@ -48,6 +47,7 @@ const Home = () => {
           <PartnerGrowth />
         </>
       )}
+
     </>
   );
 };
