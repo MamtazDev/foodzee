@@ -71,7 +71,7 @@ const Footer = () => {
                                     </li>
                                     <li className='nav_item'>
                                         <Link to={"/mission"} className='fs_18 fw-normal f_inter f_clr_19c2 text-decoration-none'>
-                                           Our Mission
+                                            Our Mission
                                         </Link>
                                     </li>
                                     <li className='nav_item'>
@@ -82,6 +82,11 @@ const Footer = () => {
                                     <li className='nav_item'>
                                         <Link to={"/contact"} className='fs_18 fw-normal f_inter f_clr_19c2 text-decoration-none'>
                                             Contact Us
+                                        </Link>
+                                    </li>
+                                    <li className='nav_item'>
+                                        <Link to={"/privacy-policy"} className='fs_18 fw-normal f_inter f_clr_19c2 text-decoration-none'>
+                                            Privary Policy
                                         </Link>
                                     </li>
                                 </ul>
