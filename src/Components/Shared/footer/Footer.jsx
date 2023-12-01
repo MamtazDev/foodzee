@@ -8,7 +8,12 @@ import { FaGithub } from "react-icons/fa";
 import './Footer.css'
 
 const Footer = () => {
-
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        });
+    };
     return (
         <footer className='section_padding footer_clr'>
             <div className="container">
@@ -82,6 +87,11 @@ const Footer = () => {
                                     <li className='nav_item'>
                                         <Link to={"/contact"} className='fs_18 fw-normal f_inter f_clr_19c2 text-decoration-none'>
                                             Contact Us
+                                        </Link>
+                                    </li>
+                                    <li className='nav_item'>
+                                        <Link to={"/privacy-policy"} onClick={scrollToTop} className='fs_18 fw-normal f_inter f_clr_19c2 text-decoration-none'>
+                                            Privacy Policy
                                         </Link>
                                     </li>
 
