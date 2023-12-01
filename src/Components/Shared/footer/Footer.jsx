@@ -84,11 +84,7 @@ const Footer = () => {
                                             Contact Us
                                         </Link>
                                     </li>
-                                    <li className='nav_item'>
-                                        <Link to={"/privacy-policy"} className='fs_18 fw-normal f_inter f_clr_19c2 text-decoration-none'>
-                                            Privacy Policy
-                                        </Link>
-                                    </li>
+
                                 </ul>
                             </div>
                         </div>

@@ -7,6 +7,7 @@ import Rqr from "../../assets/resturant-qr.png";
 import download from "../../assets/download.png";
 import close from "../../assets/close-modal.png";
 import { MyContext } from "../../MyContext";
+import { Link } from "react-router-dom";
 
 const AddModal = ({ modalRef }) => {
   const { activeButton } = useContext(MyContext);
@@ -30,7 +31,7 @@ const AddModal = ({ modalRef }) => {
         aria-hidden="true"
       >
         <div className="modal-dialog modal-dialog-centered modal-xl">
-          <div className="modal-content">
+          <div className="modal-content rounded-0">
             <div className="modal-body p-0">
               <div className="row m-0">
                 <div className="col-lg-7 p-3 pt-lg-5 pb-lg-1 ps-lg-5">
@@ -57,8 +58,12 @@ const AddModal = ({ modalRef }) => {
                       alt=""
                     />
                     <div className="d-flex flex-column gap-2 align-items-center">
-                      <img className="img-fluid" src={googlePlay} alt="" />
-                      <img className="img-fluid" src={appStore} alt="" />
+                      <Link to={"https://onelink.to/r8ddne"}>
+                        <img className="img-fluid" src={googlePlay} alt="" />
+                      </Link>
+                      <Link to={"https://onelink.to/vezrej"}>
+                        <img className="img-fluid" src={appStore} alt="" />
+                      </Link>
                     </div>
                   </div>
                 </div>
