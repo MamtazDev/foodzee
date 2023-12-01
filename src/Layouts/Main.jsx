@@ -4,6 +4,7 @@ import Header from "../Components/Shared/Header";
 import Footer from "../Components/Shared/footer/Footer";
 import JoinPower from "../Components/Shared/JoinPower";
 import { MyContext } from "../MyContext";
+import ScrollToTop from "../Components/ScrollToTop/ScrollToTop";
 
 const Main = () => {
   const [activeButton, setActiveButton] = useState('customer');
@@ -22,7 +23,7 @@ const Main = () => {
   }, [modalRef]);
 
   const info = {
-    activeButton, handleButtonClick,modalRef
+    activeButton, handleButtonClick, modalRef
   }
 
   return (
@@ -31,6 +32,7 @@ const Main = () => {
       <Outlet />
       <JoinPower />
       <Footer />
+      <ScrollToTop />
     </MyContext.Provider>
   );
 };
