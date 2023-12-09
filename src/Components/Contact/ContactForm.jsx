@@ -3,6 +3,21 @@ import { sendEmail } from "../../api/message";
 import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 
+const sendMessage = async (data) => {
+  const res = await fetch(
+    `${import.meta.env.VITE_BASE_URL}/Public/PostCreateEnquiry`,
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "Ocp-Apim-Subscription-Key": "962ed46b12364215a95e976478809de1",
+      },
+      body: JSON.stringify(data),
+    }
+  );
+  return res.json();
+};
+
 const ContactForm = () => {
   const navigate = useNavigate();
 
@@ -20,15 +35,17 @@ const ContactForm = () => {
     const message = form.message.value;
 
     const data = {
-      name,
-      phoneNumber,
-      email,
-      message,
+      Name: name,
+      TelephoneNumber: phoneNumber,
+      EmailAddress: email,
+      Message: message,
     };
 
     try {
-      const res = await sendEmail(data);
-      if (res?.data?.success) {
+      const res = await sendMessage(data);
+      console.log(res, "ddd");
+      // if (res?.data?.success) {
+      if (res?.Content) {
         setIsLoading(false);
 
         form.reset();
