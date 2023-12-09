@@ -7,10 +7,10 @@ const JoinPower = () => {
         <h1>
           Let’s Join Power To <br /> Fight Food Waste
         </h1>
-        <div className="form">
+        {/* <div className="form">
           <input type="email" placeholder="Enter your email" />
           <button className="f_inter">Get Started</button>
-        </div>
+        </div> */}
       </div>
     </div>
   );
