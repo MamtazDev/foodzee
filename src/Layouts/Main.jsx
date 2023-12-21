@@ -1,23 +1,18 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Outlet, useLocation } from "react-router-dom";
-import Header from "../Components/Shared/Header";
-import Footer from "../Components/Shared/footer/Footer";
-import JoinPower from "../Components/Shared/JoinPower";
-import { MyContext } from "../MyContext";
 import ScrollToTop from "../Components/ScrollToTop/ScrollToTop";
+import Header from "../Components/Shared/Header";
+import JoinPower from "../Components/Shared/JoinPower";
+import Footer from "../Components/Shared/footer/Footer";
+import { MyContext } from "../MyContext";
 
 const Main = () => {
   const [activeButton, setActiveButton] = useState("customer");
   const modalRef = useRef();
+  const pathName = useLocation();
   const handleButtonClick = (buttonType) => {
     modalRef.current.click();
     setActiveButton(buttonType);
-  };
-
-  const pathName = useLocation();
-
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   const info = {
@@ -25,7 +20,6 @@ const Main = () => {
     handleButtonClick,
     modalRef,
   };
-
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       if (modalRef.current) {
@@ -34,18 +28,20 @@ const Main = () => {
     }, 1000);
     return () => clearTimeout(timeoutId);
   }, [modalRef]);
-
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   useEffect(() => {
     scrollToTop();
   }, [pathName]);
 
   return (
     <MyContext.Provider value={info}>
-      <Header />
+      {pathName.pathname === "/create-account" ? null : <Header />}
       <Outlet />
-      <JoinPower />
-      <Footer />
-      <ScrollToTop />
+      {pathName.pathname === "/create-account" ? null : <JoinPower />}
+      {pathName.pathname === "/create-account" ? null : <Footer />}
+      {pathName.pathname === "/create-account" ? null : <ScrollToTop />}
     </MyContext.Provider>
   );
 };

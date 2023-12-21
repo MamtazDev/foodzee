@@ -1,9 +1,8 @@
 import React, { useContext } from "react";
-import googlePlay from "../../assets/google-play.png";
-import appStore from "../../assets/appstore.png";
-import PDFDwonlaod from "../../assets/foodzee.pdf"
 import { Link } from "react-router-dom";
 import { MyContext } from "../../MyContext";
+import appStore from "../../assets/appstore.png";
+import googlePlay from "../../assets/google-play.png";
 
 const Banner = () => {
   const { activeButton } = useContext(MyContext)
@@ -85,7 +84,8 @@ const Banner = () => {
               </p>
 
               <button className="download_btn f_inter me-3">
-                <Link className="text-decoration-none text-white" to={"https://appfzeitappdevuw02.azurewebsites.net/Auth/Register/Cover"} target='_blank'>
+                {/* https://appfzeitappdevuw02.azurewebsites.net/Auth/Register/Cover */}
+                <Link className="text-decoration-none text-white" to={"/create-account"} target='_blank'>
                   Create Account
                 </Link>
               </button>

@@ -1,14 +1,15 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../Layouts/Main";
-import Home from "../Pages/Home";
-import HomeTwo from "./../Pages/HomeTwo";
-import Mission from "../Pages/Mission";
 import Contact from "../Pages/Contact";
+import Cookie from "../Pages/Cookie";
+import CreateAccount from "../Pages/CreateAccount";
+import Home from "../Pages/Home";
+import Mission from "../Pages/Mission";
 import Press from "../Pages/Press";
+import Privacy from "../Pages/Privacy";
 import Support from "../Pages/Support";
 import Terms from "../Pages/Terms";
-import Privacy from "../Pages/Privacy";
-import Cookie from "../Pages/Cookie";
+import HomeTwo from "./../Pages/HomeTwo";
 
 export const router = createBrowserRouter([
   {
@@ -41,15 +42,19 @@ export const router = createBrowserRouter([
       },
       {
         path: "/terms-of-conditions",
-        element: <Terms/> ,
+        element: <Terms />,
       },
       {
         path: "/privacy-policy",
-        element: <Privacy/> ,
+        element: <Privacy />,
       },
       {
         path: "/cookie-policy",
-        element: <Cookie/> ,
+        element: <Cookie />,
+      },
+      {
+        path: "/create-account",
+        element: <CreateAccount />,
       },
     ],
   },
