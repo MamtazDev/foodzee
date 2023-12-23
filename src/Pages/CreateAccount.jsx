@@ -7,7 +7,7 @@ const CreateAccount = () => {
     document.body.appendChild(script);
   }, []);
   return (
-    <section id="create_account">
+    <section id="create_account" className="mt-5 mb-5">
       <div className="container">
         <div
           data-tf-widget="biQL9Idh"

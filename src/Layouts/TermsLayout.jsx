@@ -14,26 +14,26 @@ const TermsLayout = ({ children }) => {
                   to="/terms-of-conditions"
                   className={`${
                     location.pathname === "/terms-of-conditions" && "active"
-                  }`}
-                >
+                  }`}>
                   Terms Of Conditions
                 </Link>
+
                 <Link
                   to="/privacy-policy"
                   className={`${
                     location.pathname === "/privacy-policy" && "active"
-                  }`}
-                >
+                  }`}>
                   Privacy Policy{" "}
                 </Link>
+
                 <Link
                   to="/cookie-policy"
                   className={`${
                     location.pathname === "/cookie-policy" && "active"
-                  }`}
-                >
+                  }`}>
                   Cookie Policy
                 </Link>
+
               </div>
             </div>
             <div className="col-lg-1"></div>
